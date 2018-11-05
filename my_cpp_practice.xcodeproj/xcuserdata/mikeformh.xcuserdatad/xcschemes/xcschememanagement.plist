@@ -7,12 +7,12 @@
 		<key>Bisection method (For linear).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Faster fibonacci by using array.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Find the number of palindrome substring.xcscheme</key>
 		<dict>
@@ -27,7 +27,7 @@
 		<key>Palindrome string.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Print numerical trapezium.xcscheme</key>
 		<dict>
@@ -42,12 +42,12 @@
 		<key>addition_by_string.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>my_cpp_practice.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>who_got_the_biggest_number.xcscheme</key>
 		<dict>
