@@ -19,12 +19,13 @@ const int MEDIC = 2;
 
 class WingOfLiberty{
 public:
-    WingOfLiberty (string new_name, int given_minerals, int *given_sequence):name_(new_name), minerals_(given_minerals){
+    WingOfLiberty (string new_name, int given_minerals, int *given_sequence, int sequence_size):name_(new_name), minerals_(given_minerals), sequence_size_(sequence_size){
         sequence = given_sequence;
     };
     void start_battle_simulation();
 private:
     int * sequence;
+    int sequence_size_;
     int minerals_ = 0;
     int time_ = 0;
     int number_of_scv_ = 1;
@@ -46,7 +47,7 @@ const int WingOfLiberty::kHpOfMedic = 4;
 
 void WingOfLiberty::start_battle_simulation(){
     for (int i = 0; minerals_ >= 4; ++i){
-        switch (sequence [i % 3]){
+        switch (sequence [i % sequence_size_]){
             case 0:
                 TrainSCV();
                 break;
@@ -96,8 +97,8 @@ int main(){
     int mengsk_training_sequence [3] = {MARINE, MEDIC, SCV};
     int input_minerals;
     cin >> input_minerals;
-    WingOfLiberty Raynor("Raynor", input_minerals, raynor_training_sequence);
-    WingOfLiberty Mengsk("Mengsk", input_minerals, mengsk_training_sequence);
+    WingOfLiberty Raynor("Raynor", input_minerals, raynor_training_sequence, sizeof(raynor_training_sequence) / sizeof(int));
+    WingOfLiberty Mengsk("Mengsk", input_minerals, mengsk_training_sequence, sizeof(mengsk_training_sequence) / sizeof(int));
     Raynor.start_battle_simulation();
     Mengsk.start_battle_simulation();
     return 0;
