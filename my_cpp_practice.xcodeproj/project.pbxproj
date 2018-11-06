@@ -17,6 +17,7 @@
 		486E898B218F1B9600C8BC5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 486E898A218F1B9600C8BC5E /* main.cpp */; };
 		486E8996218F1BD000C8BC5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 486E8995218F1BD000C8BC5E /* main.cpp */; };
 		486E89A1218F1C0700C8BC5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 486E89A0218F1C0700C8BC5E /* main.cpp */; };
+		4884C7CD219172AB007550D0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4884C7CC219172AB007550D0 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,6 +111,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		4884C7C8219172AB007550D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +143,8 @@
 		486E8995218F1BD000C8BC5E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		486E899E218F1C0700C8BC5E /* who_got_the_biggest_number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = who_got_the_biggest_number; sourceTree = BUILT_PRODUCTS_DIR; };
 		486E89A0218F1C0700C8BC5E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4884C7CA219172AB007550D0 /* wing of liberty - starcraft */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "wing of liberty - starcraft"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4884C7CC219172AB007550D0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +218,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4884C7C7219172AB007550D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -222,6 +241,7 @@
 				486E8989218F1B9600C8BC5E /* Print numerical trapezium */,
 				486E8994218F1BD000C8BC5E /* Reverse a matrix */,
 				486E899F218F1C0700C8BC5E /* who_got_the_biggest_number */,
+				4884C7CB219172AB007550D0 /* wing of liberty - starcraft */,
 				486E8939218F187B00C8BC5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -239,6 +259,7 @@
 				486E8988218F1B9600C8BC5E /* Print numerical trapezium */,
 				486E8993218F1BD000C8BC5E /* Reverse a matrix */,
 				486E899E218F1C0700C8BC5E /* who_got_the_biggest_number */,
+				4884C7CA219172AB007550D0 /* wing of liberty - starcraft */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -321,6 +342,14 @@
 				486E89A0218F1C0700C8BC5E /* main.cpp */,
 			);
 			path = who_got_the_biggest_number;
+			sourceTree = "<group>";
+		};
+		4884C7CB219172AB007550D0 /* wing of liberty - starcraft */ = {
+			isa = PBXGroup;
+			children = (
+				4884C7CC219172AB007550D0 /* main.cpp */,
+			);
+			path = "wing of liberty - starcraft";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,6 +525,23 @@
 			productReference = 486E899E218F1C0700C8BC5E /* who_got_the_biggest_number */;
 			productType = "com.apple.product-type.tool";
 		};
+		4884C7C9219172AB007550D0 /* wing of liberty - starcraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4884C7D0219172AB007550D0 /* Build configuration list for PBXNativeTarget "wing of liberty - starcraft" */;
+			buildPhases = (
+				4884C7C6219172AB007550D0 /* Sources */,
+				4884C7C7219172AB007550D0 /* Frameworks */,
+				4884C7C8219172AB007550D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wing of liberty - starcraft";
+			productName = "wing of liberty - starcraft";
+			productReference = 4884C7CA219172AB007550D0 /* wing of liberty - starcraft */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -535,6 +581,9 @@
 					486E899D218F1C0700C8BC5E = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					4884C7C9219172AB007550D0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 				};
 			};
 			buildConfigurationList = 486E8933218F187B00C8BC5E /* Build configuration list for PBXProject "my_cpp_practice" */;
@@ -559,6 +608,7 @@
 				486E8987218F1B9600C8BC5E /* Print numerical trapezium */,
 				486E8992218F1BD000C8BC5E /* Reverse a matrix */,
 				486E899D218F1C0700C8BC5E /* who_got_the_biggest_number */,
+				4884C7C9219172AB007550D0 /* wing of liberty - starcraft */,
 			);
 		};
 /* End PBXProject section */
@@ -641,6 +691,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				486E89A1218F1C0700C8BC5E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4884C7C6219172AB007550D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4884C7CD219172AB007550D0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -938,6 +996,24 @@
 			};
 			name = Release;
 		};
+		4884C7CE219172AB007550D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4884C7CF219172AB007550D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1036,6 +1112,15 @@
 			buildConfigurations = (
 				486E89A3218F1C0700C8BC5E /* Debug */,
 				486E89A4218F1C0700C8BC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4884C7D0219172AB007550D0 /* Build configuration list for PBXNativeTarget "wing of liberty - starcraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4884C7CE219172AB007550D0 /* Debug */,
+				4884C7CF219172AB007550D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
