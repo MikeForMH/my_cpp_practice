@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		48574233219430C2006151BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48574232219430C2006151BF /* main.cpp */; };
+		4857423E219467D8006151BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4857423D219467D8006151BF /* main.cpp */; };
 		486E893C218F187B00C8BC5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 486E893B218F187B00C8BC5E /* main.cpp */; };
 		486E8949218F18B200C8BC5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 486E8948218F18B200C8BC5E /* main.cpp */; };
 		486E8954218F192B00C8BC5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 486E8953218F192B00C8BC5E /* main.cpp */; };
@@ -24,6 +25,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		4857422E219430C2006151BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		48574239219467D8006151BF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -145,6 +155,8 @@
 /* Begin PBXFileReference section */
 		48574230219430C2006151BF /* who take my clay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "who take my clay"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48574232219430C2006151BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4857423B219467D8006151BF /* bitwise operation practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bitwise operation practice"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4857423D219467D8006151BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		486E8938218F187B00C8BC5E /* my_cpp_practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = my_cpp_practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		486E893B218F187B00C8BC5E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		486E8946218F18B200C8BC5E /* addition_by_string */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = addition_by_string; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +185,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		4857422D219430C2006151BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48574238219467D8006151BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,6 +293,14 @@
 			path = who_take_my_clay;
 			sourceTree = "<group>";
 		};
+		4857423C219467D8006151BF /* bitwise operation practice */ = {
+			isa = PBXGroup;
+			children = (
+				4857423D219467D8006151BF /* main.cpp */,
+			);
+			path = "bitwise operation practice";
+			sourceTree = "<group>";
+		};
 		486E892F218F187B00C8BC5E = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +317,7 @@
 				4884C7CB219172AB007550D0 /* wing of liberty - starcraft */,
 				4884C7D621930F1C007550D0 /* vector practice */,
 				48574231219430C2006151BF /* who_take_my_clay */,
+				4857423C219467D8006151BF /* bitwise operation practice */,
 				486E8939218F187B00C8BC5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -310,6 +338,7 @@
 				4884C7CA219172AB007550D0 /* wing of liberty - starcraft */,
 				4884C7D521930F1C007550D0 /* vector practice */,
 				48574230219430C2006151BF /* who take my clay */,
+				4857423B219467D8006151BF /* bitwise operation practice */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -428,6 +457,23 @@
 			name = "who take my clay";
 			productName = "who take my clay";
 			productReference = 48574230219430C2006151BF /* who take my clay */;
+			productType = "com.apple.product-type.tool";
+		};
+		4857423A219467D8006151BF /* bitwise operation practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4857423F219467D8006151BF /* Build configuration list for PBXNativeTarget "bitwise operation practice" */;
+			buildPhases = (
+				48574237219467D8006151BF /* Sources */,
+				48574238219467D8006151BF /* Frameworks */,
+				48574239219467D8006151BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bitwise operation practice";
+			productName = "bitwise operation practice";
+			productReference = 4857423B219467D8006151BF /* bitwise operation practice */;
 			productType = "com.apple.product-type.tool";
 		};
 		486E8937218F187B00C8BC5E /* my_cpp_practice */ = {
@@ -646,6 +692,9 @@
 					4857422F219430C2006151BF = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					4857423A219467D8006151BF = {
+						CreatedOnToolsVersion = 10.0;
+					};
 					486E8937218F187B00C8BC5E = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -709,6 +758,7 @@
 				4884C7C9219172AB007550D0 /* wing of liberty - starcraft */,
 				4884C7D421930F1C007550D0 /* vector practice */,
 				4857422F219430C2006151BF /* who take my clay */,
+				4857423A219467D8006151BF /* bitwise operation practice */,
 			);
 		};
 /* End PBXProject section */
@@ -719,6 +769,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				48574233219430C2006151BF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48574237219467D8006151BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4857423E219467D8006151BF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -831,6 +889,24 @@
 			name = Debug;
 		};
 		48574235219430C2006151BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48574240219467D8006151BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48574241219467D8006151BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1174,6 +1250,15 @@
 			buildConfigurations = (
 				48574234219430C2006151BF /* Debug */,
 				48574235219430C2006151BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4857423F219467D8006151BF /* Build configuration list for PBXNativeTarget "bitwise operation practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48574240219467D8006151BF /* Debug */,
+				48574241219467D8006151BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
