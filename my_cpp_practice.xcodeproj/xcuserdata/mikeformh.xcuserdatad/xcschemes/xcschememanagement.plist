@@ -99,10 +99,15 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>fibonacci_3.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 		<key>find_element_with_no_repetion.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>15</integer>
 		</dict>
 		<key>my_cpp_practice.xcscheme</key>
 		<dict>
@@ -117,7 +122,7 @@
 		<key>roman_to_decimal.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>16</integer>
 		</dict>
 		<key>vector practice.xcscheme</key>
 		<dict>
@@ -162,6 +167,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4867D99C2199ECDE00A4A5FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>48694B19219744D400896589</key>
 		<dict>
 			<key>primary</key>

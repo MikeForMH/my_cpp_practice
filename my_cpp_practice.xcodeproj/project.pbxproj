@@ -10,8 +10,8 @@
 		48574233219430C2006151BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48574232219430C2006151BF /* main.cpp */; };
 		4857423E219467D8006151BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4857423D219467D8006151BF /* main.cpp */; };
 		4857424A219563CF006151BF /* vector_practice_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48574249219563CF006151BF /* vector_practice_2.cpp */; };
+		4867D9A02199ECDE00A4A5FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4867D99F2199ECDE00A4A5FC /* main.cpp */; };
 		48694B1D219744D400896589 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48694B1C219744D400896589 /* main.cpp */; };
-		486E893C218F187B00C8BC5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 486E893B218F187B00C8BC5E /* main.cpp */; };
 		486E8949218F18B200C8BC5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 486E8948218F18B200C8BC5E /* main.cpp */; };
 		486E8954218F192B00C8BC5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 486E8953218F192B00C8BC5E /* main.cpp */; };
 		486E895F218F19A200C8BC5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 486E895E218F19A200C8BC5E /* main.cpp */; };
@@ -37,6 +37,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		48574239219467D8006151BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4867D99B2199ECDE00A4A5FC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -188,10 +197,11 @@
 		4857423B219467D8006151BF /* bitwise operation practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bitwise operation practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4857423D219467D8006151BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		48574249219563CF006151BF /* vector_practice_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vector_practice_2.cpp; sourceTree = "<group>"; };
+		4867D99D2199ECDE00A4A5FC /* fibonacci_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fibonacci_3; sourceTree = BUILT_PRODUCTS_DIR; };
+		4867D99F2199ECDE00A4A5FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		48694B1A219744D400896589 /* testing_target */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testing_target; sourceTree = BUILT_PRODUCTS_DIR; };
 		48694B1C219744D400896589 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		486E8938218F187B00C8BC5E /* my_cpp_practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = my_cpp_practice; sourceTree = BUILT_PRODUCTS_DIR; };
-		486E893B218F187B00C8BC5E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		486E8946218F18B200C8BC5E /* addition_by_string */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = addition_by_string; sourceTree = BUILT_PRODUCTS_DIR; };
 		486E8948218F18B200C8BC5E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		486E8951218F192B00C8BC5E /* Bisection method (For linear) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bisection method (For linear)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,6 +239,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		48574238219467D8006151BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4867D99A2199ECDE00A4A5FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,17 +368,62 @@
 			path = who_take_my_clay;
 			sourceTree = "<group>";
 		};
-		4857423C219467D8006151BF /* bitwise operation practice */ = {
+		4857423C219467D8006151BF /* bitwise_operation_practice */ = {
 			isa = PBXGroup;
 			children = (
 				4857423D219467D8006151BF /* main.cpp */,
 			);
-			path = "bitwise operation practice";
+			path = bitwise_operation_practice;
+			sourceTree = "<group>";
+		};
+		4867D9952199AA9900A4A5FC /* easy_question */ = {
+			isa = PBXGroup;
+			children = (
+				4857423C219467D8006151BF /* bitwise_operation_practice */,
+				486E8968218F1AAC00C8BC5E /* faster_fibonacci_by_using_array */,
+				486E8989218F1B9600C8BC5E /* print_numerical_trapezium */,
+				48574231219430C2006151BF /* who_take_my_clay */,
+			);
+			path = easy_question;
+			sourceTree = "<group>";
+		};
+		4867D9962199AAE300A4A5FC /* algorithm_practice */ = {
+			isa = PBXGroup;
+			children = (
+				486E8952218F192B00C8BC5E /* bisection_method_for_linear */,
+			);
+			path = algorithm_practice;
+			sourceTree = "<group>";
+		};
+		4867D9972199AB1800A4A5FC /* unsolved_problem */ = {
+			isa = PBXGroup;
+			children = (
+				486E897E218F1B6A00C8BC5E /* last_three_number */,
+			);
+			path = unsolved_problem;
+			sourceTree = "<group>";
+		};
+		4867D9982199ECB800A4A5FC /* array_practice */ = {
+			isa = PBXGroup;
+			children = (
+				4867D99E2199ECDE00A4A5FC /* fibonacci_3 */,
+			);
+			path = array_practice;
+			sourceTree = "<group>";
+		};
+		4867D99E2199ECDE00A4A5FC /* fibonacci_3 */ = {
+			isa = PBXGroup;
+			children = (
+				4867D99F2199ECDE00A4A5FC /* main.cpp */,
+			);
+			path = fibonacci_3;
 			sourceTree = "<group>";
 		};
 		48694B14219743EC00896589 /* string_practice */ = {
 			isa = PBXGroup;
 			children = (
+				486E8973218F1B0200C8BC5E /* Find the number of palindrome substring */,
+				486E8947218F18B200C8BC5E /* addition_by_string */,
 				48BB53DD21981683000F5C3C /* roman_to_decimal */,
 				48694B1B219744D400896589 /* demical_to_roman */,
 			);
@@ -379,22 +441,13 @@
 		486E892F218F187B00C8BC5E = {
 			isa = PBXGroup;
 			children = (
+				4867D9982199ECB800A4A5FC /* array_practice */,
+				4867D9972199AB1800A4A5FC /* unsolved_problem */,
+				4867D9962199AAE300A4A5FC /* algorithm_practice */,
+				4867D9952199AA9900A4A5FC /* easy_question */,
 				48DB317F21999E5800A38B7A /* algorithm_library_practice */,
 				48694B14219743EC00896589 /* string_practice */,
-				486E893A218F187B00C8BC5E /* my_cpp_practice */,
-				486E8947218F18B200C8BC5E /* addition_by_string */,
-				486E8952218F192B00C8BC5E /* Bisection method (For linear) */,
-				486E895D218F19A200C8BC5E /* Palindrome string */,
-				486E8968218F1AAC00C8BC5E /* Faster fibonacci by using array */,
-				486E8973218F1B0200C8BC5E /* Find the number of palindrome substring */,
-				486E897E218F1B6A00C8BC5E /* Last three number */,
-				486E8989218F1B9600C8BC5E /* Print numerical trapezium */,
-				486E8994218F1BD000C8BC5E /* Reverse a matrix */,
-				486E899F218F1C0700C8BC5E /* who_got_the_biggest_number */,
-				4884C7CB219172AB007550D0 /* wing of liberty - starcraft */,
 				4884C7D621930F1C007550D0 /* vector practice */,
-				48574231219430C2006151BF /* who_take_my_clay */,
-				4857423C219467D8006151BF /* bitwise operation practice */,
 				486E8939218F187B00C8BC5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -419,16 +472,9 @@
 				48694B1A219744D400896589 /* testing_target */,
 				48BB53DC21981683000F5C3C /* roman_to_decimal */,
 				48DB318421999EA800A38B7A /* find_element_with_no_repetion */,
+				4867D99D2199ECDE00A4A5FC /* fibonacci_3 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		486E893A218F187B00C8BC5E /* my_cpp_practice */ = {
-			isa = PBXGroup;
-			children = (
-				486E893B218F187B00C8BC5E /* main.cpp */,
-			);
-			path = my_cpp_practice;
 			sourceTree = "<group>";
 		};
 		486E8947218F18B200C8BC5E /* addition_by_string */ = {
@@ -439,12 +485,12 @@
 			path = addition_by_string;
 			sourceTree = "<group>";
 		};
-		486E8952218F192B00C8BC5E /* Bisection method (For linear) */ = {
+		486E8952218F192B00C8BC5E /* bisection_method_for_linear */ = {
 			isa = PBXGroup;
 			children = (
 				486E8953218F192B00C8BC5E /* main.cpp */,
 			);
-			path = "Bisection method (For linear)";
+			path = bisection_method_for_linear;
 			sourceTree = "<group>";
 		};
 		486E895D218F19A200C8BC5E /* Palindrome string */ = {
@@ -455,12 +501,12 @@
 			path = "Palindrome string";
 			sourceTree = "<group>";
 		};
-		486E8968218F1AAC00C8BC5E /* Faster fibonacci by using array */ = {
+		486E8968218F1AAC00C8BC5E /* faster_fibonacci_by_using_array */ = {
 			isa = PBXGroup;
 			children = (
 				486E8969218F1AAC00C8BC5E /* main.cpp */,
 			);
-			path = "Faster fibonacci by using array";
+			path = faster_fibonacci_by_using_array;
 			sourceTree = "<group>";
 		};
 		486E8973218F1B0200C8BC5E /* Find the number of palindrome substring */ = {
@@ -471,20 +517,20 @@
 			path = "Find the number of palindrome substring";
 			sourceTree = "<group>";
 		};
-		486E897E218F1B6A00C8BC5E /* Last three number */ = {
+		486E897E218F1B6A00C8BC5E /* last_three_number */ = {
 			isa = PBXGroup;
 			children = (
 				486E897F218F1B6A00C8BC5E /* main.cpp */,
 			);
-			path = "Last three number";
+			path = last_three_number;
 			sourceTree = "<group>";
 		};
-		486E8989218F1B9600C8BC5E /* Print numerical trapezium */ = {
+		486E8989218F1B9600C8BC5E /* print_numerical_trapezium */ = {
 			isa = PBXGroup;
 			children = (
 				486E898A218F1B9600C8BC5E /* main.cpp */,
 			);
-			path = "Print numerical trapezium";
+			path = print_numerical_trapezium;
 			sourceTree = "<group>";
 		};
 		486E8994218F1BD000C8BC5E /* Reverse a matrix */ = {
@@ -531,6 +577,10 @@
 		48DB317F21999E5800A38B7A /* algorithm_library_practice */ = {
 			isa = PBXGroup;
 			children = (
+				486E8994218F1BD000C8BC5E /* Reverse a matrix */,
+				4884C7CB219172AB007550D0 /* wing of liberty - starcraft */,
+				486E899F218F1C0700C8BC5E /* who_got_the_biggest_number */,
+				486E895D218F19A200C8BC5E /* Palindrome string */,
 				48DB318521999EA800A38B7A /* find_element_with_no_repetion */,
 			);
 			path = algorithm_library_practice;
@@ -579,6 +629,23 @@
 			name = "bitwise operation practice";
 			productName = "bitwise operation practice";
 			productReference = 4857423B219467D8006151BF /* bitwise operation practice */;
+			productType = "com.apple.product-type.tool";
+		};
+		4867D99C2199ECDE00A4A5FC /* fibonacci_3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4867D9A12199ECDE00A4A5FC /* Build configuration list for PBXNativeTarget "fibonacci_3" */;
+			buildPhases = (
+				4867D9992199ECDE00A4A5FC /* Sources */,
+				4867D99A2199ECDE00A4A5FC /* Frameworks */,
+				4867D99B2199ECDE00A4A5FC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fibonacci_3;
+			productName = fibonacci_3;
+			productReference = 4867D99D2199ECDE00A4A5FC /* fibonacci_3 */;
 			productType = "com.apple.product-type.tool";
 		};
 		48694B19219744D400896589 /* testing_target */ = {
@@ -851,6 +918,9 @@
 					4857423A219467D8006151BF = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					4867D99C2199ECDE00A4A5FC = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					48694B19219744D400896589 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -927,6 +997,7 @@
 				48694B19219744D400896589 /* testing_target */,
 				48BB53DB21981683000F5C3C /* roman_to_decimal */,
 				48DB318321999EA800A38B7A /* find_element_with_no_repetion */,
+				4867D99C2199ECDE00A4A5FC /* fibonacci_3 */,
 			);
 		};
 /* End PBXProject section */
@@ -948,6 +1019,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4867D9992199ECDE00A4A5FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4867D9A02199ECDE00A4A5FC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48694B16219744D400896589 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -960,7 +1039,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				486E893C218F187B00C8BC5E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1099,6 +1177,24 @@
 			name = Debug;
 		};
 		48574241219467D8006151BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4867D9A22199ECDE00A4A5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4867D9A32199ECDE00A4A5FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1505,6 +1601,15 @@
 			buildConfigurations = (
 				48574240219467D8006151BF /* Debug */,
 				48574241219467D8006151BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4867D9A12199ECDE00A4A5FC /* Build configuration list for PBXNativeTarget "fibonacci_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4867D9A22199ECDE00A4A5FC /* Debug */,
+				4867D9A32199ECDE00A4A5FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
