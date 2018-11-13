@@ -114,6 +114,11 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
+		<key>jumping_in_array.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 		<key>my_cpp_practice.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -128,6 +133,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>16</integer>
+		</dict>
+		<key>template_practice_1.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
 		</dict>
 		<key>vector practice.xcscheme</key>
 		<dict>

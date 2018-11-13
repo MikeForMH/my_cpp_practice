@@ -5,7 +5,7 @@
 //  Created by Michael Hui on 13/11/2018.
 //  Copyright © 2018 Michael Hui. All rights reserved.
 //
-// -------------------------------THIS IS USED FOR ROUND DOWN.-------------------------------------------
+// ---THIS IS USED FOR ROUND DOWN.---
 
 # include <iostream>
 # include <cmath>
