@@ -109,6 +109,11 @@
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
+		<key>find_square_root.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>my_cpp_practice.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
