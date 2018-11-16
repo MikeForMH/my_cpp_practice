@@ -77,7 +77,7 @@
 		<key>add one to the number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>25</integer>
 		</dict>
 		<key>addition_by_string.xcscheme</key>
 		<dict>
@@ -127,7 +127,7 @@
 		<key>integer_addition_vector_ver.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>22</integer>
 		</dict>
 		<key>jumping_in_array.xcscheme_^#shared#^_</key>
 		<dict>
@@ -139,6 +139,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>rapid_product.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>roman_to_decimal.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -148,6 +153,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>16</integer>
+		</dict>
+		<key>slow_multiplication_by_using_addition.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
 		</dict>
 		<key>template_practice_1.xcscheme_^#shared#^_</key>
 		<dict>
