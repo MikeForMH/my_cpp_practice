@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4824AD9E219E98F700104D8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4824AD9D219E98F700104D8A /* main.cpp */; };
 		48574233219430C2006151BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48574232219430C2006151BF /* main.cpp */; };
 		4857423E219467D8006151BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4857423D219467D8006151BF /* main.cpp */; };
 		4857424A219563CF006151BF /* vector_practice_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48574249219563CF006151BF /* vector_practice_2.cpp */; };
@@ -34,6 +35,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		4824AD99219E98F700104D8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		4857422E219430C2006151BF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,6 +272,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4824AD9B219E98F700104D8A /* integer_addition_vector_ver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = integer_addition_vector_ver; sourceTree = BUILT_PRODUCTS_DIR; };
+		4824AD9D219E98F700104D8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		48574230219430C2006151BF /* who take my clay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "who take my clay"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48574232219430C2006151BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4857423B219467D8006151BF /* bitwise operation practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bitwise operation practice"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -314,6 +326,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4824AD98219E98F700104D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4857422D219430C2006151BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -492,6 +511,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4824AD9C219E98F700104D8A /* integer_addition_vector_ver */ = {
+			isa = PBXGroup;
+			children = (
+				4824AD9D219E98F700104D8A /* main.cpp */,
+			);
+			path = integer_addition_vector_ver;
+			sourceTree = "<group>";
+		};
 		48574231219430C2006151BF /* who_take_my_clay */ = {
 			isa = PBXGroup;
 			children = (
@@ -596,6 +623,7 @@
 		4867D9E2219E67EB00A4A5FC /* add_one_to_the_number */ = {
 			isa = PBXGroup;
 			children = (
+				4824AD9C219E98F700104D8A /* integer_addition_vector_ver */,
 				4867D9E3219E67EB00A4A5FC /* main.cpp */,
 			);
 			path = add_one_to_the_number;
@@ -682,6 +710,7 @@
 				4867D9D5219BFE2C00A4A5FC /* a_vector_simulation */,
 				4867D9E1219E67EB00A4A5FC /* add one to the number */,
 				4867D9EE219E890400A4A5FC /* testing_ground */,
+				4824AD9B219E98F700104D8A /* integer_addition_vector_ver */,
 			);
 			name = products;
 			sourceTree = "<group>";
@@ -806,6 +835,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4824AD9A219E98F700104D8A /* integer_addition_vector_ver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4824ADA1219E98F700104D8A /* Build configuration list for PBXNativeTarget "integer_addition_vector_ver" */;
+			buildPhases = (
+				4824AD97219E98F700104D8A /* Sources */,
+				4824AD98219E98F700104D8A /* Frameworks */,
+				4824AD99219E98F700104D8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = integer_addition_vector_ver;
+			productName = integer_addition_vector_ver;
+			productReference = 4824AD9B219E98F700104D8A /* integer_addition_vector_ver */;
+			productType = "com.apple.product-type.tool";
+		};
 		4857422F219430C2006151BF /* who take my clay */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48574236219430C2006151BF /* Build configuration list for PBXNativeTarget "who take my clay" */;
@@ -1240,6 +1286,9 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Michael Hui";
 				TargetAttributes = {
+					4824AD9A219E98F700104D8A = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					4857422F219430C2006151BF = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -1354,11 +1403,20 @@
 				4867D9D4219BFE2C00A4A5FC /* a_vector_simulation */,
 				4867D9E0219E67EB00A4A5FC /* add one to the number */,
 				4867D9ED219E890400A4A5FC /* testing_ground */,
+				4824AD9A219E98F700104D8A /* integer_addition_vector_ver */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4824AD97219E98F700104D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4824AD9E219E98F700104D8A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4857422C219430C2006151BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1561,6 +1619,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		4824AD9F219E98F700104D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4824ADA0219E98F700104D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		48574234219430C2006151BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2125,6 +2201,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4824ADA1219E98F700104D8A /* Build configuration list for PBXNativeTarget "integer_addition_vector_ver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4824AD9F219E98F700104D8A /* Debug */,
+				4824ADA0219E98F700104D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		48574236219430C2006151BF /* Build configuration list for PBXNativeTarget "who take my clay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
