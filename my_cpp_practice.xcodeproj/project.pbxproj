@@ -565,12 +565,12 @@
 			path = abolished;
 			sourceTree = "<group>";
 		};
-		4808C2E8219F28CB00B0DE8A /* slow_multiplication_by_using_addition */ = {
+		4808C2E8219F28CB00B0DE8A /* multiplication_by_array */ = {
 			isa = PBXGroup;
 			children = (
 				4808C2E9219F28CB00B0DE8A /* main.cpp */,
 			);
-			path = slow_multiplication_by_using_addition;
+			path = multiplication_by_array;
 			sourceTree = "<group>";
 		};
 		4824AD9C219E98F700104D8A /* integer_addition_vector_ver */ = {
@@ -629,6 +629,7 @@
 		4867D9982199ECB800A4A5FC /* array_practice */ = {
 			isa = PBXGroup;
 			children = (
+				4808C2E8219F28CB00B0DE8A /* multiplication_by_array */,
 				4867D99E2199ECDE00A4A5FC /* fibonacci_3 */,
 			);
 			path = array_practice;
@@ -863,7 +864,6 @@
 		4884C7D621930F1C007550D0 /* vector_practice */ = {
 			isa = PBXGroup;
 			children = (
-				4808C2E8219F28CB00B0DE8A /* slow_multiplication_by_using_addition */,
 				4867D9E8219E67FE00A4A5FC /* vector_practice */,
 				4867D9E2219E67EB00A4A5FC /* add_one_to_the_number */,
 			);

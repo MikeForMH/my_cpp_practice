@@ -77,7 +77,7 @@
 		<key>add one to the number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>23</integer>
 		</dict>
 		<key>addition_by_string.xcscheme</key>
 		<dict>
@@ -127,12 +127,17 @@
 		<key>integer_addition_vector_ver.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>24</integer>
 		</dict>
 		<key>jumping_in_array.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>20</integer>
+		</dict>
+		<key>multiplication_by_array.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
 		</dict>
 		<key>my_cpp_practice.xcscheme</key>
 		<dict>
@@ -142,7 +147,7 @@
 		<key>rapid_product.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>25</integer>
 		</dict>
 		<key>roman_to_decimal.xcscheme</key>
 		<dict>
@@ -154,11 +159,6 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
-		<key>slow_multiplication_by_using_addition.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>26</integer>
-		</dict>
 		<key>template_practice_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -167,7 +167,7 @@
 		<key>testing_ground.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>22</integer>
 		</dict>
 		<key>vector practice.xcscheme</key>
 		<dict>
@@ -212,6 +212,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4808C2E6219F28CB00B0DE8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4867D99C2199ECDE00A4A5FC</key>
 		<dict>
 			<key>primary</key>
