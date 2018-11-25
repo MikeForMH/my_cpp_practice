@@ -602,45 +602,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_3/main.cpp"
-            timestampString = "564665506.009587"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
-            landmarkName = "main()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_3/main.cpp"
-            timestampString = "564665506.010415"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
-            landmarkName = "main()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_3/main.cpp"
-            timestampString = "564665506.010877"
+            timestampString = "564745097.509166"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "130"
-            endingLineNumber = "130"
-            landmarkName = "main()"
-            landmarkType = "9">
+            endingLineNumber = "130">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -650,13 +616,39 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_3/main.cpp"
-            timestampString = "564665506.011232"
+            timestampString = "564745097.509232"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
-            landmarkName = "main()"
-            landmarkType = "9">
+            startingLineNumber = "130"
+            endingLineNumber = "130">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_3/main.cpp"
+            timestampString = "564745097.5092829"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_3/main.cpp"
+            timestampString = "564745097.509329"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -666,13 +658,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_3/main.cpp"
-            timestampString = "564665506.011566"
+            timestampString = "564745097.509372"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
-            landmarkName = "main()"
-            landmarkType = "9">
+            startingLineNumber = "130"
+            endingLineNumber = "130">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -682,7 +672,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_2/main.cpp"
-            timestampString = "564680070.26875"
+            timestampString = "564738080.6785049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "171"
@@ -698,7 +688,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_2/main.cpp"
-            timestampString = "564680070.2692339"
+            timestampString = "564738080.678596"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "154"
@@ -714,7 +704,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_2/main.cpp"
-            timestampString = "564680070.269462"
+            timestampString = "564738080.678694"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "147"
@@ -730,7 +720,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_2/main.cpp"
-            timestampString = "564680070.26968"
+            timestampString = "564738080.678782"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "151"
@@ -746,7 +736,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_2/main.cpp"
-            timestampString = "564680070.269894"
+            timestampString = "564738080.678866"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
@@ -762,7 +752,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_2/main.cpp"
-            timestampString = "564680070.270124"
+            timestampString = "564738080.678949"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "77"
@@ -778,7 +768,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_2/main.cpp"
-            timestampString = "564680070.270344"
+            timestampString = "564738080.6790299"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "170"
@@ -794,7 +784,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_2/main.cpp"
-            timestampString = "564680070.270561"
+            timestampString = "564738080.679106"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "165"
@@ -810,7 +800,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_2/main.cpp"
-            timestampString = "564680070.270772"
+            timestampString = "564738080.679184"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "106"
@@ -826,12 +816,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_2/main.cpp"
-            timestampString = "564680070.270991"
+            timestampString = "564738080.679261"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "107"
             endingLineNumber = "107"
             landmarkName = "remove_node(int index)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_3/main.cpp"
+            timestampString = "564745097.5095249"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "data_structure_practice/linear_list/chain_list/chain_list_practice_4/main.cpp"
+            timestampString = "564824140.398136"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "insert(Node &lt;Type&gt; *node, int index)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
