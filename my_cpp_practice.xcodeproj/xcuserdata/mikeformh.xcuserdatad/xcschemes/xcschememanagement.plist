@@ -112,12 +112,12 @@
 		<key>chain_list_practice_3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>34</integer>
+			<integer>35</integer>
 		</dict>
 		<key>chain_list_practice_4.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>35</integer>
+			<integer>36</integer>
 		</dict>
 		<key>decimal_to_roman.xcscheme</key>
 		<dict>
@@ -128,6 +128,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>20</integer>
+		</dict>
+		<key>elementary_arithmetic_operations.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
 		</dict>
 		<key>fibonacci_3.xcscheme_^#shared#^_</key>
 		<dict>
@@ -187,7 +192,7 @@
 		<key>recent_calls.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>36</integer>
+			<integer>34</integer>
 		</dict>
 		<key>roman_to_decimal.xcscheme</key>
 		<dict>
