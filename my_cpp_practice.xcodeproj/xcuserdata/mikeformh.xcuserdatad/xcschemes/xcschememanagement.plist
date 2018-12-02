@@ -122,7 +122,7 @@
 		<key>chain_list_practice_4.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>35</integer>
+			<integer>38</integer>
 		</dict>
 		<key>decimal_to_roman.xcscheme</key>
 		<dict>
@@ -137,7 +137,7 @@
 		<key>elementary_arithmetic_operations.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>37</integer>
+			<integer>35</integer>
 		</dict>
 		<key>fibonacci_3.xcscheme_^#shared#^_</key>
 		<dict>
@@ -182,7 +182,12 @@
 		<key>magic_machine.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>38</integer>
+			<integer>37</integer>
+		</dict>
+		<key>mirror_tree.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>42</integer>
 		</dict>
 		<key>multiplication_by_array.xcscheme_^#shared#^_</key>
 		<dict>
