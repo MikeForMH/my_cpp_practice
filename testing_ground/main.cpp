@@ -6,18 +6,14 @@
 //  Copyright © 2018 Michael Hui. All rights reserved.
 //
 
-#include <iostream>
+# include <iostream>
+# include <cmath>
 using namespace std;
 
-void call_func(){
-    int testing_n;
-    cin >> testing_n;
-    cout << testing_n << endl;
-    return;
-}
-
 int main(){
-    cout << "do something" << endl;
-    call_func();
+    int N;
+    cin >> N;
+    int result = static_cast <int> (floor(log(N)/log(2)));
+    cout << result << endl;
     return 0;
 }
