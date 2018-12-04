@@ -71,12 +71,7 @@ public:
         _rchild = NULL;
     }
     ~Node(){
-        //if(_lchild != NULL){
-        //    delete _lchild;
-        //}
-        //if(_rchild != NULL){
-        //    delete _rchild;
-        //}
+        return;
     }
     void output_list(){ // testing purpose
         cout << _data;
@@ -141,11 +136,15 @@ template <typename Type> class Binary_Tree{
 private:
     Node <Type> *_root;
     int _node_count;
-    void release_memory(Node <Type> *input_root){
-        if(input_root != NULL){
-            release_memory(input_root->_lchild);
-            release_memory(input_root->_rchild);
-            delete input_root;
+    void release_memory(Node <Type> *input_node){
+        if(input_node != NULL){
+            if (input_node->_lchild != NULL){
+                release_memory(input_node->_lchild);
+            }
+            if(input_node->_rchild != NULL){
+                release_memory(input_node->_rchild);
+            }
+            delete input_node;
         }
         return;
     }
@@ -161,6 +160,7 @@ public:
             return;
         }
         _root = _root->build_by_list(input_string, this);
+        return;
     }
     ~Binary_Tree(){
         release_memory(_root);

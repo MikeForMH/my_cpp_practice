@@ -23,12 +23,7 @@ public:
         _rchild = NULL;
     }
     ~Node(){
-        if(_lchild != NULL){
-            delete _lchild;
-        }
-        if(_rchild != NULL){
-            delete _rchild;
-        }
+        return;
     }
     void output_list(){
         cout << _data;
