@@ -214,7 +214,7 @@ public:
             }
             --layer_number;
         }
-        return current_node->_data;
+        return current_node->_data; // error here
     }
 };
 
