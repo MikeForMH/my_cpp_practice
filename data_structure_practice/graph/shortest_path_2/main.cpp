@@ -8,13 +8,11 @@
 
 # include <iostream>
 # include <cstring>
-# include <vector>
 # include <queue>
 
 using std::cin;
 using std::cout;
 using std::endl;
-using std::vector;
 using std::queue;
 
 class Point{
@@ -72,10 +70,12 @@ public:
         delete [] visited;
         delete [] distance;
     }
+    /*
     void insert_block(int &r, int &c){
         visited[r][c] = false;
         return;
     }
+     */
     void initialize_start_pt(Point &start_p){
         start_point = start_p;
         return;
@@ -165,15 +165,16 @@ int main(){
             cin >> map_input;
             switch(map_input){
                 case '.':
-                    continue;
+                    break;
                 case '*':
                     labyrinth.make_visited(i, j);
-                    continue;
+                    break;
                 case 'P':
                     labyrinth.set_end_point(i, j);
-                    continue;
+                    break;
                 case 'S':
                     labyrinth.set_start_point(i, j);
+                    break;
             }
         }
     }
