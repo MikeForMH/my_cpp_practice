@@ -9,10 +9,14 @@
 # include <iostream>
 # include <string>
 # include <cmath>
+# include <queue>
+# include <vector>
 using std::cin;
 using std::cout;
 using std::endl;
 using std::string;
+using std::queue;
+using std::vector;
 
 template <typename Type> class Binary_Tree;
 
@@ -216,12 +220,38 @@ public:
         }
         return current_node->_data; // error here
     }
+    void traverse_by_layer_ver_2(){
+        queue <Node <char>*> traversing_queue;
+        vector <char> result;
+        if(_root){
+            traversing_queue.push(_root);
+        }
+        while(!traversing_queue.empty()){
+            Node <char> *temp = traversing_queue.front();
+            result.push_back(temp->_data);
+            traversing_queue.pop();
+            if(temp->_lchild){
+                traversing_queue.push(temp->_lchild);
+            }
+            if(temp->_rchild){
+                traversing_queue.push(temp->_rchild);
+            }
+        }
+        for(size_t i = 0; i < result.size(); ++i){
+            if(i != 0){
+                cout << " ";
+            }
+            cout << result[i];
+        }
+        cout << endl;
+        return;
+    }
 };
 
 int main(){
     string input_generalised_list;
     getline(cin, input_generalised_list);
     Binary_Tree <char> binary_tree(input_generalised_list);
-    binary_tree.traverse_by_layer();
+    binary_tree.traverse_by_layer_ver_2();
     return 0;
 }
