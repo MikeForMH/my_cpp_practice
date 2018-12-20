@@ -1232,7 +1232,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/binary_tree/traversing_binary_tree/main.cpp"
-            timestampString = "566993290.1854039"
+            timestampString = "567013709.62423"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "110"
@@ -1248,7 +1248,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/binary_tree/traversing_binary_tree/main.cpp"
-            timestampString = "566993290.185497"
+            timestampString = "567013709.624333"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "255"
@@ -1264,7 +1264,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/binary_tree/traversing_binary_tree/main.cpp"
-            timestampString = "566993290.185564"
+            timestampString = "567013709.6244071"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "166"
@@ -1280,7 +1280,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/binary_tree/traversing_binary_tree/main.cpp"
-            timestampString = "566993290.185627"
+            timestampString = "567013709.624509"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "102"
@@ -1296,7 +1296,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/binary_tree/traversing_binary_tree/main.cpp"
-            timestampString = "566993290.1856869"
+            timestampString = "567013709.624572"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "103"
@@ -1312,7 +1312,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/binary_tree/traversing_binary_tree/main.cpp"
-            timestampString = "566993290.185747"
+            timestampString = "567013709.624676"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "107"
@@ -1328,7 +1328,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/binary_tree/traversing_binary_tree/main.cpp"
-            timestampString = "566993290.185806"
+            timestampString = "567013709.6247571"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "108"
@@ -1344,7 +1344,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/binary_tree/traversing_binary_tree/main.cpp"
-            timestampString = "566993290.185865"
+            timestampString = "567013709.624831"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "188"
@@ -1360,7 +1360,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/binary_tree/traversing_binary_tree/main.cpp"
-            timestampString = "566993290.185925"
+            timestampString = "567013709.624923"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "189"
@@ -1376,7 +1376,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/binary_tree/traversing_binary_tree/main.cpp"
-            timestampString = "566993290.185984"
+            timestampString = "567013709.624994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "221"
@@ -1392,7 +1392,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/binary_tree/traversing_binary_tree/main.cpp"
-            timestampString = "566993290.186044"
+            timestampString = "567013709.625053"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "204"
@@ -1408,7 +1408,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/binary_tree/traversing_binary_tree/main.cpp"
-            timestampString = "566993290.186101"
+            timestampString = "567013709.6251301"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "256"
@@ -1424,7 +1424,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "data_structure_practice/binary_tree/traversing_binary_tree/main.cpp"
-            timestampString = "566993290.1861579"
+            timestampString = "567013709.625194"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "257"
@@ -1621,6 +1621,70 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
             endingLineNumber = "28"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "class_practice/score_ranking_pat_1004/main.cpp"
+            timestampString = "567015567.654092"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "class_practice/score_ranking_pat_1004/main.cpp"
+            timestampString = "567015567.654595"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "class_practice/score_ranking_pat_1004/main.cpp"
+            timestampString = "567015567.654847"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "Student(const string &amp;name, const string student_number, const int &amp;score)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "class_practice/score_ranking_pat_1004/main.cpp"
+            timestampString = "567015567.655115"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
