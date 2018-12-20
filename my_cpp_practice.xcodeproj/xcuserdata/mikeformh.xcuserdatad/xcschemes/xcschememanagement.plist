@@ -192,12 +192,12 @@
 		<key>find_two_number_with_specific_sum.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>55</integer>
+			<integer>56</integer>
 		</dict>
 		<key>first_missing_positive_number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>56</integer>
+			<integer>57</integer>
 		</dict>
 		<key>generalised_list_to_binary_tree.xcscheme_^#shared#^_</key>
 		<dict>
@@ -213,6 +213,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>54</integer>
+		</dict>
+		<key>i_want_to_pass_pta_1003.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>58</integer>
 		</dict>
 		<key>integer_addition_vector_ver.xcscheme_^#shared#^_</key>
 		<dict>
@@ -322,7 +327,7 @@
 		<key>traversing_binary_tree_ver_2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>57</integer>
+			<integer>55</integer>
 		</dict>
 		<key>vector practice.xcscheme</key>
 		<dict>
