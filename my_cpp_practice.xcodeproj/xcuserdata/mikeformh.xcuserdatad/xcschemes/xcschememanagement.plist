@@ -152,7 +152,7 @@
 		<key>convert_number_format_pat_1006.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>61</integer>
+			<integer>62</integer>
 		</dict>
 		<key>decimal_to_roman.xcscheme</key>
 		<dict>
@@ -177,7 +177,7 @@
 		<key>find_derivative_pat_1010.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>65</integer>
+			<integer>61</integer>
 		</dict>
 		<key>find_element_with_no_repetion.xcscheme_^#shared#^_</key>
 		<dict>
@@ -192,7 +192,7 @@
 		<key>find_prime_pair_pat_1007.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>62</integer>
+			<integer>63</integer>
 		</dict>
 		<key>find_same_username.xcscheme_^#shared#^_</key>
 		<dict>
@@ -249,6 +249,11 @@
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
+		<key>large_integer_comparing_pat_1011.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>66</integer>
+		</dict>
 		<key>linear_practice_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -267,7 +272,7 @@
 		<key>move_array_rightward_pat_1008.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>63</integer>
+			<integer>64</integer>
 		</dict>
 		<key>multiplication_by_array.xcscheme_^#shared#^_</key>
 		<dict>
@@ -302,7 +307,7 @@
 		<key>reverse_sentance_pat_1009.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>64</integer>
+			<integer>65</integer>
 		</dict>
 		<key>roman_to_decimal.xcscheme</key>
 		<dict>
