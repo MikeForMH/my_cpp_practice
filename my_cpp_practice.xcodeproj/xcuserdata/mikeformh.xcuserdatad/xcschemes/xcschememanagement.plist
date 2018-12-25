@@ -189,6 +189,11 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>find_nth_prime_pat_1013.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>68</integer>
+		</dict>
 		<key>find_nth_small_number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
