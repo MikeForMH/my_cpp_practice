@@ -49,7 +49,7 @@ public:
     Node *_lchild, *_rchild;
     Node(const char &input_data){
         _data = input_data;
-        _rchild = NULL;
+        _lchild = NULL;
         _rchild = NULL;
     }
     ~Node(){
