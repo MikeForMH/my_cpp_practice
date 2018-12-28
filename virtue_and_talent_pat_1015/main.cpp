@@ -27,16 +27,16 @@ public:
         _sum = _virtue_score + _talent_score;
     }
     Student(const Student &obj){
-        _exam_number = obj._exam_number;
-        _virtue_score = obj._virtue_score;
-        _talent_score = obj._talent_score;
-        _sum = obj._sum;
+        this->_exam_number = obj._exam_number;
+        this->_virtue_score = obj._virtue_score;
+        this->_talent_score = obj._talent_score;
+        this->_sum = obj._sum;
     }
     Student(){
-        _exam_number = -1;
-        _virtue_score = -1;
-        _talent_score = -1;
-        _sum = -1;
+        _exam_number = 0;
+        _virtue_score = 0;
+        _talent_score = 0;
+        _sum = 0;
     }
 };
 
@@ -46,6 +46,7 @@ private:
     int _lower_bound;
     int _premium_bound;
     int _pass_student;
+    Student _temp[100001];
     vector <Student> tier_1, tier_2, tier_3, tier_4;
     void quick_sort(vector <Student> &input, const int &left, const int &right){
         if(left < right){
@@ -74,6 +75,54 @@ private:
             quick_sort(input, left, i - 1);
             quick_sort(input, i + 1, right);
         }
+    }
+    void merge_sort(vector <Student> &input, const int &left, const int &right){
+        if(left == right){
+            return;
+        }
+        int mid = (left + right) / 2;
+        merge_sort(input, left, mid);
+        merge_sort(input, mid + 1, right);
+        int x = left, y = mid + 1, loc = left;
+        while(x <= mid || y <= right){
+            if(x <= mid && (y > right || input[x]._sum >= input[y]._sum)){
+                if(input[x]._sum == input[y]._sum){
+                    if(input[x]._virtue_score == input[y]._virtue_score){
+                        if(input[x]._exam_number < input[y]._exam_number){
+                            _temp[loc] = input[x];
+                            ++x;
+                        }
+                        else{
+                            _temp[loc] = input[y];
+                            ++y;
+                        }
+                    }
+                    else{
+                        if(input[x]._virtue_score > input[y]._virtue_score){
+                            _temp[loc] = input[x];
+                            ++x;
+                        }
+                        else{
+                            _temp[loc] = input[y];
+                            ++y;
+                        }
+                    }
+                }
+                else{
+                    _temp[loc] = input[x];
+                    ++x;
+                }
+            }
+            else{
+                _temp[loc] = input[y];
+                ++y;
+            }
+            ++loc;
+        }
+        for(int i = left; i <= right; ++i){
+            input[i] = _temp[i];
+        }
+        return;
     }
 public:
     Exam(int &n, int &lower_bound, int &premium_bound){
@@ -111,10 +160,16 @@ public:
     }
     void output(){
         cout << _pass_student << endl;
+        /*
         quick_sort(tier_1, 0, int(tier_1.size() - 1));
         quick_sort(tier_2, 0, int(tier_2.size() - 1));
         quick_sort(tier_3, 0, int(tier_3.size() - 1));
         quick_sort(tier_4, 0, int(tier_4.size() - 1));
+        */
+        merge_sort(tier_1, 0, int(tier_1.size() - 1));
+        merge_sort(tier_2, 0, int(tier_2.size() - 1));
+        merge_sort(tier_3, 0, int(tier_3.size() - 1));
+        merge_sort(tier_4, 0, int(tier_4.size() - 1));
         for(auto var: tier_1){
             cout << var._exam_number << " " << var._virtue_score << " " << var._talent_score << endl;
         }
