@@ -32,6 +32,12 @@ public:
         _talent_score = obj._talent_score;
         _sum = obj._sum;
     }
+    Student(){
+        _exam_number = -1;
+        _virtue_score = -1;
+        _talent_score = -1;
+        _sum = -1;
+    }
 };
 
 class Exam{
@@ -40,66 +46,34 @@ private:
     int _lower_bound;
     int _premium_bound;
     int _pass_student;
-    vector <Student*> tier_1, tier_2, tier_3, tier_4;
-    Student **_temp;
-    void merge_sort(vector <Student*> &input, const int &l, const int &r){
-        if(l == r){
-            return;
-        }
-        int mid = (l + r) / 2;
-        merge_sort(input, l, mid);
-        merge_sort(input, mid + 1, r);
-        int x = l, y = mid + 1, loc = l;
-        while(x <= mid || y <= r){
-            bool flag = false;
-            if(y > r){
-                flag = true;
-            }
-            else if(input[x]->_sum >= input[y]->_sum){
-                flag = true;
-            }
-            if(x <= mid && flag){
-                if(y > r){
-                    _temp[loc] = input[x];
-                    ++x;
-                    ++loc;
-                    continue;
+    vector <Student> tier_1, tier_2, tier_3, tier_4;
+    void quick_sort(vector <Student> &input, const int &left, const int &right){
+        if(left < right){
+            int i = left, j = left;
+            int sum_pivot = input[right]._sum, virtue_pivot = input[right]._virtue_score, number_pivot = input[right]._exam_number;
+            while(j < right){
+                if(input[j]._sum > sum_pivot){
+                    swap(input[i], input[j]);
+                    ++i;
                 }
-                if(input[x]->_sum > input[y]->_sum){
-                    _temp[loc] = input[x];
-                    ++x;
-                }
-                else{
-                    if(input[x]->_virtue_score > input[y]->_virtue_score){
-                        _temp[loc] = input[x];
-                        ++x;
+                else if(input[j]._sum == sum_pivot){
+                    if(input[j]._virtue_score > virtue_pivot){
+                        swap(input[i], input[j]);
+                        ++i;
                     }
-                    else if(input[x]->_virtue_score < input[y]->_virtue_score){
-                        _temp[loc] = input[y];
-                        ++y;
-                    }
-                    else{
-                        if(input[x]->_exam_number < input[y]->_exam_number){
-                            _temp[loc] = input[x];
-                            ++x;
-                        }
-                        else{
-                            _temp[loc] = input[y];
-                            ++y;
+                    else if(input[j]._virtue_score == virtue_pivot){
+                        if(input[j]._exam_number < number_pivot){
+                            swap(input[i], input[j]);
+                            ++i;
                         }
                     }
                 }
+                ++j;
             }
-            else{
-                _temp[loc] = input[y];
-                ++y;
-            }
-            ++loc;
+            swap(input[i], input[j]);
+            quick_sort(input, left, i - 1);
+            quick_sort(input, i + 1, right);
         }
-        for(int i = l; i <= r; ++i){
-            input[i] = _temp[i];
-        }
-        return;
     }
 public:
     Exam(int &n, int &lower_bound, int &premium_bound){
@@ -107,70 +81,51 @@ public:
         _lower_bound = lower_bound;
         _premium_bound = premium_bound;
         _pass_student = 0;
-        _temp = new Student*[_candidate];
-        for(int i = 0; i < _candidate; ++i){
-            _temp[i] = NULL;
-        }
     }
     ~Exam(){
-        for(auto var: tier_1){
-            delete var;
-        }
-        for(auto var: tier_2){
-            delete var;
-        }
-        for(auto var: tier_3){
-            delete var;
-        }
-        for(auto var: tier_4){
-            delete var;
-        }
-        delete [] _temp;
     }
     void insert(int &exam_number, int &virtue_score, int &talent_score){
-        Student *input = new Student(exam_number, virtue_score, talent_score);
         if(virtue_score >= _premium_bound && talent_score >= _premium_bound){
-            tier_1.push_back(input);
+            tier_1.push_back(Student(exam_number, virtue_score, talent_score));
             ++_pass_student;
             return;
         }
         else if(virtue_score >= _premium_bound && talent_score >= _lower_bound){
-            tier_2.push_back(input);
+            tier_2.push_back(Student(exam_number, virtue_score, talent_score));
             ++_pass_student;
             return;
         }
         else if(talent_score >= _lower_bound && virtue_score >= talent_score){
-            tier_3.push_back(input);
+            tier_3.push_back(Student(exam_number, virtue_score, talent_score));
             ++_pass_student;
             return;
         }
         else if(virtue_score >= _lower_bound && talent_score >= _lower_bound){
-            tier_4.push_back(input);
+            tier_4.push_back(Student(exam_number, virtue_score, talent_score));
             ++_pass_student;
             return;
         }
         else{
-            delete input;
             return;
         }
     }
     void output(){
         cout << _pass_student << endl;
-        merge_sort(tier_1, 0, int(tier_1.size() - 1));
-        merge_sort(tier_2, 0, int(tier_2.size() - 1));
-        merge_sort(tier_3, 0, int(tier_3.size() - 1));
-        merge_sort(tier_4, 0, int(tier_4.size() - 1));
+        quick_sort(tier_1, 0, int(tier_1.size() - 1));
+        quick_sort(tier_2, 0, int(tier_2.size() - 1));
+        quick_sort(tier_3, 0, int(tier_3.size() - 1));
+        quick_sort(tier_4, 0, int(tier_4.size() - 1));
         for(auto var: tier_1){
-            cout << var->_exam_number << " " << var->_virtue_score << " " << var->_talent_score << endl;
+            cout << var._exam_number << " " << var._virtue_score << " " << var._talent_score << endl;
         }
         for(auto var: tier_2){
-            cout << var->_exam_number << " " << var->_virtue_score << " " << var->_talent_score << endl;
+            cout << var._exam_number << " " << var._virtue_score << " " << var._talent_score << endl;
         }
         for(auto var: tier_3){
-            cout << var->_exam_number << " " << var->_virtue_score << " " << var->_talent_score << endl;
+            cout << var._exam_number << " " << var._virtue_score << " " << var._talent_score << endl;
         }
         for(auto var: tier_4){
-            cout << var->_exam_number << " " << var->_virtue_score << " " << var->_talent_score << endl;
+            cout << var._exam_number << " " << var._virtue_score << " " << var._talent_score << endl;
         }
         return;
     }
