@@ -55,16 +55,22 @@ private:
                 if(input[j]._sum > sum_pivot){
                     swap(input[i], input[j]);
                     ++i;
+                    ++j;
+                    continue;
                 }
                 else if(input[j]._sum == sum_pivot){
                     if(input[j]._virtue_score > virtue_pivot){
                         swap(input[i], input[j]);
                         ++i;
+                        ++j;
+                        continue;
                     }
                     else if(input[j]._virtue_score == virtue_pivot){
                         if(input[j]._exam_number < number_pivot){
                             swap(input[i], input[j]);
                             ++i;
+                            ++j;
+                            continue;
                         }
                     }
                 }
