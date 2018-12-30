@@ -1978,7 +1978,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "virtue_and_talent_pat_1015_ver_4/main.cpp"
-            timestampString = "567784473.7591521"
+            timestampString = "567850868.936828"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
@@ -1994,7 +1994,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "virtue_and_talent_pat_1015_ver_4/main.cpp"
-            timestampString = "567784473.759609"
+            timestampString = "567850868.937145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "12"
@@ -2010,13 +2010,93 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "virtue_and_talent_pat_1015_ver_4/main.cpp"
-            timestampString = "567784473.759818"
+            timestampString = "567850868.937217"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"
             endingLineNumber = "13"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "virtue_and_talent_pat_1015_ver_4/main.cpp"
+            timestampString = "567850868.937271"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "virtue_and_talent_pat_1015_ver_4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikeformh/Library/Autosave%20Information/my_cpp_practice/virtue_and_talent_pat_1015_ver_4/main.cpp"
+                  timestampString = "567785508.963062"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "214"
+                  endingLineNumber = "214"
+                  offsetFromSymbolStart = "283">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "virtue_and_talent_pat_1015_ver_4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikeformh/Library/Autosave%20Information/my_cpp_practice/virtue_and_talent_pat_1015_ver_4/main.cpp"
+                  timestampString = "567785508.967806"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "214"
+                  endingLineNumber = "214"
+                  offsetFromSymbolStart = "378">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "partial_a_plus_b_pat_1016/main.cpp"
+            timestampString = "567850868.937325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "partial_a_plus_b(string &amp;a, char &amp;d_a, string &amp;b, char &amp;d_b)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "partial_a_plus_b_pat_1016/main.cpp"
+            timestampString = "567850868.937953"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "count(string &amp;a, char &amp;d_a)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

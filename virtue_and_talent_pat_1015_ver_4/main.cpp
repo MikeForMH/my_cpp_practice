@@ -39,6 +39,7 @@ public:
         _talent_score = 0;
         _sum = 0;
     }
+    /*
     Candidate& operator=(const Candidate &obj){
         if(this != &obj){
             this->_candidate_number = obj._candidate_number;
@@ -47,6 +48,10 @@ public:
             this->_sum = obj._sum;
         }
         return *this;
+    }
+     */
+    ~Candidate(){
+        cout << "Candidat" << endl;
     }
 };
 
@@ -143,6 +148,9 @@ public:
         _lower_bound = lower_bound;
         _premium_bound = premium_bound;
     }
+    ~Exam(){
+        cout << "Exam" << endl;
+    }
     void insert(const Candidate &input){
         if(input._virtue_score >= _premium_bound && input._talent_score >= _premium_bound){
             _tier_1[_tier_1_count] = input;
@@ -203,6 +211,5 @@ int main(){
         exam_result.insert(Candidate(exam_number, virtue_score, talent_score));
     }
     exam_result.output();
-    exam_result.~Exam();
     return 0;
 }

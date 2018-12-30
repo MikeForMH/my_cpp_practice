@@ -79,6 +79,11 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>account_class_xuetangx_c7_1.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>70</integer>
+		</dict>
 		<key>add one to the number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -167,7 +172,7 @@
 		<key>decode_pat_1014.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>70</integer>
+			<integer>71</integer>
 		</dict>
 		<key>digit_sum_to_pinyin_pat_1002.xcscheme_^#shared#^_</key>
 		<dict>
@@ -289,6 +294,11 @@
 			<key>orderHint</key>
 			<integer>65</integer>
 		</dict>
+		<key>multiple_inheritance_xuetangx_c7_2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>73</integer>
+		</dict>
 		<key>multiplication_by_array.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -303,6 +313,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>41</integer>
+		</dict>
+		<key>partial_a_plus_b_pat_1016.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>75</integer>
+		</dict>
+		<key>qualified_name_lookup_xuetangx_c7_3.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>74</integer>
 		</dict>
 		<key>rapid_product.xcscheme_^#shared#^_</key>
 		<dict>
@@ -402,7 +422,7 @@
 		<key>virtue_and_talent_pat_1015_ver_4.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>71</integer>
+			<integer>72</integer>
 		</dict>
 		<key>who take my clay.xcscheme</key>
 		<dict>
