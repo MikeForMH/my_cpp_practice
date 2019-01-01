@@ -10,6 +10,7 @@
 using std::cin;
 using std::cout;
 using std::endl;
+using std::swap;
 
 # define MAX 100001
 
@@ -64,17 +65,17 @@ private:
         int x = left, y = mid + 1, loc = left;
         while(x <= mid || y <= right){
             if(x <= mid && (y > right || tier[x]->_candidate_number < tier[y]->_candidate_number)){
-                _temp[loc] = tier[x];
+                swap(_temp[loc], tier[x]);
                 ++x;
             }
             else{
-                _temp[loc] = tier[y];
+                swap(_temp[loc], tier[y]);
                 ++y;
             }
             ++loc;
         }
         for(int i = left; i <= right; ++i){
-            tier[i] = _temp[i];
+            swap(_temp[i], tier[i]);
         }
         return;
     }
@@ -88,17 +89,17 @@ private:
         int x = left, y = mid + 1, loc = left;
         while(x <= mid || y <= right){
             if(x <= mid && (y > right || tier[x]->_virtue_score >= tier[y]->_virtue_score)){
-                _temp[loc] = tier[x];
+                swap(_temp[loc], tier[x]);
                 ++x;
             }
             else{
-                _temp[loc] = tier[y];
+                swap(_temp[loc], tier[y]);
                 ++y;
             }
             ++loc;
         }
         for(int i = left; i <= right; ++i){
-            tier[i] = _temp[i];
+            swap(_temp[i], tier[i]);
         }
         return;
     }
@@ -112,17 +113,17 @@ private:
         int x = left, y = mid + 1, loc = left;
         while(x <= mid || y <= right){
             if(x <= mid && (y > right || tier[x]->_sum >= tier[y]->_sum)){
-                _temp[loc] = tier[x];
+                swap(_temp[loc], tier[x]);
                 ++x;
             }
             else{
-                _temp[loc] = tier[y];
+                swap(_temp[loc], tier[y]);
                 ++y;
             }
             ++loc;
         }
         for(int i = left; i <= right; ++i){
-            tier[i] = _temp[i];
+            swap(_temp[i], tier[i]);
         }
         return;
     }
@@ -142,43 +143,41 @@ public:
         _temp = new Candidate *[MAX];
     }
     ~Exam(){
-        for(int i = 0; i < _tier_1_count; ++i){
+        for(int i = 0; i < MAX; ++i){
             if(_tier_1[i] != NULL){
                 delete _tier_1[i];
                 _tier_1[i] = NULL;
             }
         }
         delete [] _tier_1;
-        for(int i = 0; i < _tier_2_count; ++i){
+        for(int i = 0; i < MAX; ++i){
             if(_tier_2[i] != NULL){
                 delete _tier_2[i];
                 _tier_2[i] = NULL;
             }
         }
         delete [] _tier_2;
-        for(int i = 0; i < _tier_3_count; ++i){
+        for(int i = 0; i < MAX; ++i){
             if(_tier_3[i] != NULL){
                 delete _tier_3[i];
                 _tier_3[i] = NULL;
             }
         }
         delete [] _tier_3;
-        for(int i = 0; i < _tier_4_count; ++i){
+        for(int i = 0; i < MAX; ++i){
             if(_tier_4[i] != NULL){
                 delete _tier_4[i];
                 _tier_4[i] = NULL;
             }
         }
         delete [] _tier_4;
-        delete [] _temp;
-        /*
         for(int i = 0; i < MAX; ++i){
             if(_temp[i] != NULL){
                 delete _temp[i];
                 _temp[i] = NULL;
             }
         }
-         */
+        delete [] _temp;
     }
     void insert(int &candidate_number, int &virtue_score, int &talent_score){
         if(virtue_score >= _premium_bound && talent_score >= _premium_bound){
