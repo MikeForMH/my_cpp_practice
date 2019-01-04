@@ -79,6 +79,11 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>a_plus_b_in_base_n.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>85</integer>
+		</dict>
 		<key>account_class_xuetangx_c7_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -179,6 +184,11 @@
 			<key>orderHint</key>
 			<integer>71</integer>
 		</dict>
+		<key>digit_frequency_pat_1021.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>83</integer>
+		</dict>
 		<key>digit_sum_to_pinyin_pat_1002.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -257,7 +267,7 @@
 		<key>get_sum_of_array_xuetangx_c9_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>83</integer>
+			<integer>84</integer>
 		</dict>
 		<key>greatest_number_smaller_than_given_number_2.xcscheme_^#shared#^_</key>
 		<dict>
