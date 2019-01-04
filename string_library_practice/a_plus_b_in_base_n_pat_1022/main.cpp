@@ -42,7 +42,6 @@ int remainder_of_a_divide_b(string &dividend, int &divisor){
     if(quotient.empty()){
         quotient.push_back('0');
     }
-    //cout << "quotient: " << quotient << " and remainder: " << carry << endl;
     dividend = quotient;
     return carry;
 }
@@ -80,7 +79,6 @@ int main(){
     string var_1, var_2;
     int base;
     cin >> var_1 >> var_2 >> base;
-    //remainder_of_a_divide_b(var_1, base);
     cout << a_plus_b_in_n_base(var_1, var_2, base) << endl;
     return 0;
 }
