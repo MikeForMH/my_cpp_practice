@@ -1,30 +1,15 @@
-#include <iostream>
-#include <iomanip>      // std::setw
+# include <iostream>
+# include <iomanip>
+# include <vector>
+# include <queue>
+# include <iterator>
+# include <map>
 
 using namespace std;
 
-int main()
-{
-    int num,i,count,n;
-    //cout << "Enter max range: ";
-    cin >> n;
-    for(num = 1;num<n;num++){
-        count = 0;
-        for(i=2;i<=num/2;i++){
-            if(num%i==0){
-                count++;
-                break;
-            }
-        }
-        
-        if(count==0 && num!= 1)
-            cout << num << endl;
-    }
+int main(){
+    map<int, int> maps;
+    
+    cout << maps.find(10)->second << endl;
     return 0;
 }
-
-/*
- OUTPUT:
- Enter max range: 30
- 2  3  5  7 11 13 17 19 23 29
- */

@@ -389,6 +389,11 @@
 			<key>orderHint</key>
 			<integer>39</integer>
 		</dict>
+		<key>remove_duplication_and_sort_xuetangx_c10_2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>reverse_polish_notation.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -457,7 +462,7 @@
 		<key>testing_ground.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>9</integer>
 		</dict>
 		<key>traversing_binary_tree.xcscheme_^#shared#^_</key>
 		<dict>
@@ -519,6 +524,11 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>word_count_xuetangx_c10_1.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -542,6 +552,16 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>481610C021E278E600D4C020</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>481610CF21E2815C00D4C020</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4830930E21B538E400E93ADC</key>
 		<dict>
 			<key>primary</key>
@@ -553,6 +573,11 @@
 			<true/>
 		</dict>
 		<key>4867D9D4219BFE2C00A4A5FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4867D9ED219E890400A4A5FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
