@@ -7,7 +7,7 @@
 		<key>3_tuple_to_binary_tree.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>55</integer>
 		</dict>
 		<key>Bisection method (For linear).xcscheme</key>
 		<dict>
@@ -17,7 +17,7 @@
 		<key>Bisection method (For linear).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>17</integer>
 		</dict>
 		<key>Faster fibonacci by using array.xcscheme</key>
 		<dict>
@@ -27,7 +27,7 @@
 		<key>Faster fibonacci by using array.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>19</integer>
 		</dict>
 		<key>Find the number of palindrome substring.xcscheme</key>
 		<dict>
@@ -37,7 +37,7 @@
 		<key>Find the number of palindrome substring.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>20</integer>
 		</dict>
 		<key>Last three number.xcscheme</key>
 		<dict>
@@ -47,7 +47,7 @@
 		<key>Last three number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>21</integer>
 		</dict>
 		<key>Palindrome string.xcscheme</key>
 		<dict>
@@ -57,7 +57,7 @@
 		<key>Palindrome string.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>18</integer>
 		</dict>
 		<key>Print numerical trapezium.xcscheme</key>
 		<dict>
@@ -67,7 +67,7 @@
 		<key>Print numerical trapezium.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>22</integer>
 		</dict>
 		<key>Reverse a matrix.xcscheme</key>
 		<dict>
@@ -77,27 +77,27 @@
 		<key>Reverse a matrix.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>23</integer>
 		</dict>
 		<key>a_plus_b_in_base_n.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>85</integer>
+			<integer>93</integer>
 		</dict>
 		<key>account_class_xuetangx_c7_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>73</integer>
+			<integer>80</integer>
 		</dict>
 		<key>add one to the number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>26</integer>
+			<integer>35</integer>
 		</dict>
 		<key>adding_and_subtracting_of_complex_number_xuetangx_c8_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>78</integer>
+			<integer>85</integer>
 		</dict>
 		<key>addition_by_string.xcscheme</key>
 		<dict>
@@ -107,22 +107,22 @@
 		<key>addition_by_string.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>16</integer>
 		</dict>
 		<key>adjacency_list_practice_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>48</integer>
+			<integer>56</integer>
 		</dict>
 		<key>adjacency_matrix_practice_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>50</integer>
+			<integer>57</integer>
 		</dict>
 		<key>biggest_number_pat_1023.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>86</integer>
+			<integer>94</integer>
 		</dict>
 		<key>binary_search_xuetangx_c9_2.xcscheme_^#shared#^_</key>
 		<dict>
@@ -132,7 +132,7 @@
 		<key>binary_tree_practice_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>43</integer>
+			<integer>51</integer>
 		</dict>
 		<key>bitwise operation practice.xcscheme</key>
 		<dict>
@@ -142,7 +142,7 @@
 		<key>bitwise operation practice.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>28</integer>
 		</dict>
 		<key>bracket_matching_xuetangx_c9_3.xcscheme_^#shared#^_</key>
 		<dict>
@@ -152,42 +152,42 @@
 		<key>categorise_number_pat_1012.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>68</integer>
+			<integer>76</integer>
 		</dict>
 		<key>chain_list_practice_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>34</integer>
+			<integer>41</integer>
 		</dict>
 		<key>chain_list_practice_2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>35</integer>
+			<integer>43</integer>
 		</dict>
 		<key>chain_list_practice_3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>37</integer>
+			<integer>44</integer>
 		</dict>
 		<key>chain_list_practice_4.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>36</integer>
+			<integer>45</integer>
 		</dict>
 		<key>collatz_conjecture_2_pat_1005.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>60</integer>
+			<integer>69</integer>
 		</dict>
 		<key>complete_binary_tree_practice_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>47</integer>
+			<integer>54</integer>
 		</dict>
 		<key>convert_number_format_pat_1006.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>62</integer>
+			<integer>70</integer>
 		</dict>
 		<key>count_appearance_times_xuetangx_c10_3.xcscheme_^#shared#^_</key>
 		<dict>
@@ -202,27 +202,27 @@
 		<key>decode_pat_1014.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>69</integer>
+			<integer>78</integer>
 		</dict>
 		<key>digit_frequency_pat_1021.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>84</integer>
+			<integer>92</integer>
 		</dict>
 		<key>digit_sum_to_pinyin_pat_1002.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>34</integer>
 		</dict>
 		<key>dynamic_cast_practice_xuetangx_c8_3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>79</integer>
+			<integer>87</integer>
 		</dict>
 		<key>elementary_arithmetic_operations.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>38</integer>
+			<integer>47</integer>
 		</dict>
 		<key>fibonacci_3.xcscheme_^#shared#^_</key>
 		<dict>
@@ -232,122 +232,122 @@
 		<key>find_derivative_pat_1010.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>67</integer>
+			<integer>74</integer>
 		</dict>
 		<key>find_element_with_no_repetion.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>30</integer>
 		</dict>
 		<key>find_nth_prime_pat_1013.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>70</integer>
+			<integer>77</integer>
 		</dict>
 		<key>find_nth_small_number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>39</integer>
 		</dict>
 		<key>find_prime_pair_pat_1007.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>64</integer>
+			<integer>71</integer>
 		</dict>
 		<key>find_same_username.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>52</integer>
+			<integer>61</integer>
 		</dict>
 		<key>find_set_intersection.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>42</integer>
 		</dict>
 		<key>find_square_root.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>31</integer>
 		</dict>
 		<key>find_two_number_with_specific_sum.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>55</integer>
+			<integer>64</integer>
 		</dict>
 		<key>first_missing_positive_number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>57</integer>
+			<integer>65</integer>
 		</dict>
 		<key>generalised_list_to_binary_tree.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>45</integer>
+			<integer>53</integer>
 		</dict>
 		<key>get_sum_of_array_xuetangx_c9_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>83</integer>
+			<integer>91</integer>
 		</dict>
 		<key>greatest_number_smaller_than_given_number_2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>54</integer>
+			<integer>62</integer>
 		</dict>
 		<key>greatest_number_smaller_than_given_number_3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>56</integer>
+			<integer>63</integer>
 		</dict>
 		<key>i_want_to_pass_pta_1003.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>59</integer>
+			<integer>67</integer>
 		</dict>
 		<key>integer_addition_vector_ver.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>36</integer>
 		</dict>
 		<key>jumping_in_array.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>32</integer>
 		</dict>
 		<key>large_integer_comparing_pat_1011.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>66</integer>
+			<integer>75</integer>
 		</dict>
 		<key>linear_practice_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>31</integer>
+			<integer>38</integer>
 		</dict>
 		<key>magic_machine.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>40</integer>
+			<integer>48</integer>
 		</dict>
 		<key>mirror_tree.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>52</integer>
 		</dict>
 		<key>mooncake_pat_1020.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>82</integer>
+			<integer>90</integer>
 		</dict>
 		<key>move_array_rightward_pat_1008.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>63</integer>
+			<integer>72</integer>
 		</dict>
 		<key>multiple_inheritance_xuetangx_c7_2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>72</integer>
+			<integer>81</integer>
 		</dict>
 		<key>multiplication_by_array.xcscheme_^#shared#^_</key>
 		<dict>
@@ -362,37 +362,47 @@
 		<key>number_blackhole_pat_1019.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>80</integer>
+			<integer>89</integer>
+		</dict>
+		<key>output_float_xuetangx_c11_1.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
 		</dict>
 		<key>palindrome_test_2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>49</integer>
 		</dict>
 		<key>parameter_and_area_of_circle_xuetangx_c8_2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>77</integer>
+			<integer>86</integer>
 		</dict>
 		<key>partial_a_plus_b_pat_1016.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>74</integer>
+			<integer>83</integer>
 		</dict>
 		<key>qualified_name_lookup_xuetangx_c7_3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>75</integer>
+			<integer>82</integer>
 		</dict>
 		<key>rapid_product.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>37</integer>
 		</dict>
 		<key>recent_calls.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>39</integer>
+			<integer>46</integer>
+		</dict>
+		<key>reloading_insert_extract_operaor_xuetangx_c11_2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
 		</dict>
 		<key>remove_duplication_and_sort_xuetangx_c10_2.xcscheme_^#shared#^_</key>
 		<dict>
@@ -402,17 +412,17 @@
 		<key>reverse_polish_notation.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>41</integer>
+			<integer>50</integer>
 		</dict>
 		<key>reverse_sentance_pat_1009.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>65</integer>
+			<integer>73</integer>
 		</dict>
 		<key>rock_paper_scissors_pat_1018.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>81</integer>
+			<integer>88</integer>
 		</dict>
 		<key>roman_to_decimal.xcscheme</key>
 		<dict>
@@ -422,7 +432,7 @@
 		<key>roman_to_decimal.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>29</integer>
 		</dict>
 		<key>scientific_notation_convertor_pat_1024.xcscheme_^#shared#^_</key>
 		<dict>
@@ -432,12 +442,12 @@
 		<key>score_ranking_pat_1004.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>61</integer>
+			<integer>68</integer>
 		</dict>
 		<key>sequent_list_practice_2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>32</integer>
+			<integer>40</integer>
 		</dict>
 		<key>sequent_list_practice_3.xcscheme_^#shared#^_</key>
 		<dict>
@@ -447,27 +457,27 @@
 		<key>shortest_path_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>49</integer>
+			<integer>58</integer>
 		</dict>
 		<key>shortest_path_2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>51</integer>
+			<integer>59</integer>
 		</dict>
 		<key>shortest_path_3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>53</integer>
+			<integer>60</integer>
 		</dict>
 		<key>string_division_pat_1017.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>76</integer>
+			<integer>84</integer>
 		</dict>
 		<key>template_practice_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>33</integer>
 		</dict>
 		<key>testing_ground.xcscheme_^#shared#^_</key>
 		<dict>
@@ -482,7 +492,7 @@
 		<key>traversing_binary_tree_ver_2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>58</integer>
+			<integer>66</integer>
 		</dict>
 		<key>vector practice.xcscheme</key>
 		<dict>
@@ -492,7 +502,7 @@
 		<key>vector practice.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>26</integer>
 		</dict>
 		<key>virtue_and_talent_pat_1015.xcscheme_^#shared#^_</key>
 		<dict>
@@ -502,7 +512,7 @@
 		<key>virtue_and_talent_pat_1015_ver_4.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>71</integer>
+			<integer>79</integer>
 		</dict>
 		<key>who take my clay.xcscheme</key>
 		<dict>
@@ -512,7 +522,7 @@
 		<key>who take my clay.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>27</integer>
 		</dict>
 		<key>who_got_the_biggest_number.xcscheme</key>
 		<dict>
@@ -522,7 +532,7 @@
 		<key>who_got_the_biggest_number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>24</integer>
 		</dict>
 		<key>wing of liberty - starcraft.xcscheme</key>
 		<dict>
@@ -532,7 +542,7 @@
 		<key>wing of liberty - starcraft.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>25</integer>
 		</dict>
 		<key>word_count_xuetangx_c10_1.xcscheme_^#shared#^_</key>
 		<dict>
@@ -543,6 +553,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>48059A2821E35870009B9FF9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48059A3421E39087009B9FF9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -578,6 +593,11 @@
 			<true/>
 		</dict>
 		<key>4830930E21B538E400E93ADC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>484973D221E3EE51004447B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
