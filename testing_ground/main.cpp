@@ -3,13 +3,11 @@
 # include <vector>
 # include <queue>
 # include <iterator>
-# include <map>
-
+# include <string>
 using namespace std;
 
 int main(){
-    map<int, int> maps;
-    
-    cout << maps.find(10)->second << endl;
+    string temp = "-03";
+    cout << stoi(temp) << endl;
     return 0;
 }

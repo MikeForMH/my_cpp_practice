@@ -424,6 +424,11 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>scientific_notation_convertor_pat_1024.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>score_ranking_pat_1004.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -537,6 +542,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>48059A2821E35870009B9FF9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4808C2E6219F28CB00B0DE8A</key>
 		<dict>
 			<key>primary</key>
