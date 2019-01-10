@@ -8,30 +8,30 @@
 // 1. dump data could exist.
 
 # include <iostream>
+# include <string>
 # include <vector>
 # include <map>
-# include <string>
 using std::cin;
 using std::cout;
 using std::endl;
 using std::vector;
-using std::map;
 using std::string;
+using std::map;
+using std::stoi;
 
-class Node{
-public:
+struct Node{
     string _current;
-    int _data;
+    string _data;
     string _next;
-    Node(const string &current, const int &data, const string &next){
-        _current = current;
-        _data = data;
-        _next = next;
-    };
+    Node(string &c, string &d, string &n){
+        _current = c;
+        _data = d;
+        _next = n;
+    }
     Node(){
-        _current = "0";
-        _data = 0;
-        _next = "0";
+        _current = {};
+        _data = {};
+        _next = {};
     }
     Node(const Node &obj){
         _current = obj._current;
@@ -40,44 +40,59 @@ public:
     }
 };
 
+bool is_valid_current(const string &input){
+    if(stoi(input) >= 0 && stoi(input) <= 99999){
+        return true;
+    }else{
+        return false;
+    }
+}
+bool is_valid_next(const string &input){
+    if(stoi(input) >= -1 && stoi(input) <= 99999){
+        return true;
+    }else{
+        return false;
+    }
+}
+
 int main(){
     string first_node_address;
-    int points_num, reverse_per_n;
-    cin >> first_node_address >> points_num >> reverse_per_n;
-    map <string, Node> storing_list;
-    string address, next;
-    int data;
-    for(int i = 0; i < points_num; ++i){
+    int number_of_nodes, reverse_per_n;
+    cin >> first_node_address >> number_of_nodes >> reverse_per_n;
+    map<string, Node> storing_list;
+    for(int i = 0; i < number_of_nodes; ++i){
+        string address, data, next;
         cin >> address >> data >> next;
-        storing_list[address] = Node(address, data, next);
-    }
-    vector <Node*> faked_linked_list;
-    string temp_address = first_node_address;
-    Node *temp_ptr;
-    while(temp_address != "-1"){
-        temp_ptr = &storing_list[temp_address];
-        faked_linked_list.push_back(temp_ptr);
-        temp_address = storing_list[temp_address]._next;
-    }
-    int index_before_remainder = -1, real_size = static_cast<int>(faked_linked_list.size());
-    for(int i = reverse_per_n - 1; i < real_size; i += reverse_per_n){
-        for(int j = i, k = 0; k < reverse_per_n; ++k, --j){
-            cout << faked_linked_list[j]->_current << " ";
-            cout << faked_linked_list[j]->_data << " ";
-            if(j - 1 == -1){
-                cout << faked_linked_list[i + 1]->_current << endl;
-            }else{
-                cout << faked_linked_list[j - 1]->_current << endl;
-            }
+        if(is_valid_current(address) && is_valid_next(next)){
+            storing_list[address] = Node(address, data, next);
         }
-        index_before_remainder = i;
     }
-    for(int i = index_before_remainder + 1; i < real_size; ++i){
-        cout << faked_linked_list[i]->_current << " ";
-        cout << faked_linked_list[i]->_data << " ";
-        cout << faked_linked_list[i]->_next << endl;
+    if(!is_valid_current(first_node_address)){
+        return 0;
     }
-    faked_linked_list.clear();
-    storing_list.clear();
+    vector <Node*> original_linked_list;
+    string iterating_address = first_node_address;
+    while(iterating_address != "-1"){
+        original_linked_list.push_back(&storing_list[iterating_address]);
+        iterating_address = storing_list[iterating_address]._next;
+    }
+    int actual_size = static_cast<int>(original_linked_list.size());
+    vector <Node*> reversed_linked_list;
+    for(int i = reverse_per_n - 1; i < actual_size; i += reverse_per_n){
+        for(int j = i; j > i - reverse_per_n; --j){
+            reversed_linked_list.push_back(original_linked_list[j]);
+        }
+    }
+    for(int i = actual_size - actual_size % reverse_per_n; i < actual_size; ++i){
+        reversed_linked_list.push_back(original_linked_list[i]);
+    }
+    string parameter_temp = "-1";
+    Node last_node(parameter_temp, parameter_temp, parameter_temp);
+    reversed_linked_list.push_back(&last_node);
+    for(int i = 0; i < actual_size; ++i){
+        cout << reversed_linked_list[i]->_current << " ";
+        cout << reversed_linked_list[i]->_data << " ";
+        cout << reversed_linked_list[i + 1]->_current << endl;
+    }
     return 0;
 }
