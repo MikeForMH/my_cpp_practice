@@ -319,6 +319,11 @@
 			<key>orderHint</key>
 			<integer>53</integer>
 		</dict>
+		<key>missing_key_pat_1029.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>mooncake_pat_1020.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -583,6 +588,11 @@
 			<true/>
 		</dict>
 		<key>48694B19219744D400896589</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>486D124721E9515900A0A9D7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
