@@ -359,6 +359,16 @@
 			<key>orderHint</key>
 			<integer>83</integer>
 		</dict>
+		<key>population_statics_pat_1028.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>print_sandglass_pat_1027.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>qualified_name_lookup_xuetangx_c7_3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -543,6 +553,16 @@
 			<true/>
 		</dict>
 		<key>484B211D21E84AD600BDEB98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>484B212821E88F4A00BDEB98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>484B213321E8B1A400BDEB98</key>
 		<dict>
 			<key>primary</key>
 			<true/>
