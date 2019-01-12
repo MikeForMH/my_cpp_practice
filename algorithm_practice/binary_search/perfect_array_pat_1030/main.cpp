@@ -14,8 +14,8 @@ using std::cin;
 using std::cout;
 using std::endl;
 using std::sort;
-# define MAX 100001
 using std::fill_n;
+# define MAX 100001
 
 int bi_search(long *input, const int &left, const int &right, const long &key){
     int low_bound = left;
