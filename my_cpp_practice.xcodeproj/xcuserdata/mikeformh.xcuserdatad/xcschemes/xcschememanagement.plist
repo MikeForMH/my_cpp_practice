@@ -299,6 +299,11 @@
 			<key>orderHint</key>
 			<integer>67</integer>
 		</dict>
+		<key>insert_and_merge_pat_1035.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>integer_addition_vector_ver.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -499,6 +504,11 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>verify_hkid.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>virtue_and_talent_pat_1015_ver_4.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -668,6 +678,16 @@
 			<true/>
 		</dict>
 		<key>48E1779921D48B4E005AE256</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48EF244221EE74F4006DF87B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48EF244E220DBCA9006DF87B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

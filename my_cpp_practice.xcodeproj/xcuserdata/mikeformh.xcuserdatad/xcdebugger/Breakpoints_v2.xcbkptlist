@@ -3055,8 +3055,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "116"
             endingLineNumber = "116"
-            landmarkName = "Fraction"
-            landmarkType = "14">
+            landmarkName = "operator&lt;&lt; (ostream &amp;out, const Fraction &amp;input)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3071,7 +3071,23 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
             endingLineNumber = "36"
-            landmarkName = "simply_fraction(long &amp;numerator, long &amp;denominator)"
+            landmarkName = "Fraction"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "utility/verify_hkid/main.cpp"
+            timestampString = "571327144.601938"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "verify_hkid(string &amp;input)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
