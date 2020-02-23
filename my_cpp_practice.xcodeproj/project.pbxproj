@@ -18,6 +18,7 @@
 		4811C21C21D687FC0010DEA3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48E1779C21D48B4E005AE256 /* main.cpp */; };
 		4811C22421D6883F0010DEA3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4811C22321D6883F0010DEA3 /* main.cpp */; };
 		481239C721DCA6F500E7EF38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 481239C621DCA6F500E7EF38 /* main.cpp */; };
+		4814D00124031FB800B23875 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4814D00024031FB800B23875 /* main.cpp */; };
 		481610C421E278E600D4C020 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 481610C321E278E600D4C020 /* main.cpp */; };
 		481610D321E2815D00D4C020 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 481610D221E2815D00D4C020 /* main.cpp */; };
 		481652A121CCC81800E0FA65 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 481652A021CCC81800E0FA65 /* main.cpp */; };
@@ -210,6 +211,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		481239C221DCA6F500E7EF38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4814CFFC24031FB800B23875 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1138,6 +1148,8 @@
 		481239C421DCA6F500E7EF38 /* get_sum_of_array_xuetangx_c9_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = get_sum_of_array_xuetangx_c9_1; sourceTree = BUILT_PRODUCTS_DIR; };
 		481239C621DCA6F500E7EF38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		48128A7C21E9E9A400634CCB /* test_case.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = test_case.md; sourceTree = "<group>"; };
+		4814CFFE24031FB800B23875 /* pat_1036 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pat_1036; sourceTree = BUILT_PRODUCTS_DIR; };
+		4814D00024031FB800B23875 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		481610C121E278E600D4C020 /* word_count_xuetangx_c10_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = word_count_xuetangx_c10_1; sourceTree = BUILT_PRODUCTS_DIR; };
 		481610C321E278E600D4C020 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		481610D021E2815C00D4C020 /* remove_duplication_and_sort_xuetangx_c10_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = remove_duplication_and_sort_xuetangx_c10_2; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1420,6 +1432,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		481239C121DCA6F500E7EF38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4814CFFB24031FB800B23875 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2261,6 +2280,22 @@
 			path = get_sum_of_array_xuetangx_c9_1;
 			sourceTree = "<group>";
 		};
+		4814CFF724031C6800B23875 /* 2020_unsorted_practice */ = {
+			isa = PBXGroup;
+			children = (
+				4814CFFF24031FB800B23875 /* pat_1036 */,
+			);
+			path = 2020_unsorted_practice;
+			sourceTree = "<group>";
+		};
+		4814CFFF24031FB800B23875 /* pat_1036 */ = {
+			isa = PBXGroup;
+			children = (
+				4814D00024031FB800B23875 /* main.cpp */,
+			);
+			path = pat_1036;
+			sourceTree = "<group>";
+		};
 		481610C221E278E600D4C020 /* word_count_xuetangx_c10_1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2776,6 +2811,7 @@
 		486E892F218F187B00C8BC5E = {
 			isa = PBXGroup;
 			children = (
+				4814CFF724031C6800B23875 /* 2020_unsorted_practice */,
 				48EF244A220DBC84006DF87B /* utility */,
 				481610C921E2805000D4C020 /* standard_library_practice */,
 				48E177A121D48B6C005AE256 /* ascii */,
@@ -2909,6 +2945,7 @@
 				487626A221EACEAF00DADDFA /* arithmetic_operation_pat_1034 */,
 				48EF244321EE74F4006DF87B /* insert_and_merge_pat_1035 */,
 				48EF244F220DBCA9006DF87B /* verify_hkid */,
+				4814CFFE24031FB800B23875 /* pat_1036 */,
 			);
 			name = products;
 			sourceTree = "<group>";
@@ -3734,6 +3771,23 @@
 			name = get_sum_of_array_xuetangx_c9_1;
 			productName = get_sum_of_array_xuetangx_c9_1;
 			productReference = 481239C421DCA6F500E7EF38 /* get_sum_of_array_xuetangx_c9_1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		4814CFFD24031FB800B23875 /* pat_1036 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4814D00224031FB800B23875 /* Build configuration list for PBXNativeTarget "pat_1036" */;
+			buildPhases = (
+				4814CFFA24031FB800B23875 /* Sources */,
+				4814CFFB24031FB800B23875 /* Frameworks */,
+				4814CFFC24031FB800B23875 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pat_1036;
+			productName = pat_1036;
+			productReference = 4814CFFE24031FB800B23875 /* pat_1036 */;
 			productType = "com.apple.product-type.tool";
 		};
 		481610C021E278E600D4C020 /* word_count_xuetangx_c10_1 */ = {
@@ -5426,7 +5480,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Michael Hui";
 				TargetAttributes = {
 					48059A2821E35870009B9FF9 = {
@@ -5461,6 +5515,9 @@
 					};
 					481239C321DCA6F500E7EF38 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					4814CFFD24031FB800B23875 = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 					481610C021E278E600D4C020 = {
 						CreatedOnToolsVersion = 10.1;
@@ -5767,6 +5824,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 486E892F218F187B00C8BC5E;
 			productRefGroup = 486E8939218F187B00C8BC5E /* products */;
@@ -5883,6 +5941,7 @@
 				487626A121EACEAF00DADDFA /* arithmetic_operation_pat_1034 */,
 				48EF244221EE74F4006DF87B /* insert_and_merge_pat_1035 */,
 				48EF244E220DBCA9006DF87B /* verify_hkid */,
+				4814CFFD24031FB800B23875 /* pat_1036 */,
 			);
 		};
 /* End PBXProject section */
@@ -5973,6 +6032,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				481239C721DCA6F500E7EF38 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4814CFFA24031FB800B23875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4814D00124031FB800B23875 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6773,6 +6840,7 @@
 		48059A2D21E35870009B9FF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6782,6 +6850,7 @@
 		48059A2E21E35870009B9FF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6791,6 +6860,7 @@
 		48059A3A21E39087009B9FF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6800,6 +6870,7 @@
 		48059A3B21E39087009B9FF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6809,6 +6880,7 @@
 		4808C2DD219ED32800B0DE8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6818,6 +6890,7 @@
 		4808C2DE219ED32800B0DE8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6827,6 +6900,7 @@
 		4808C2EC219F28CB00B0DE8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6836,6 +6910,7 @@
 		4808C2ED219F28CB00B0DE8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6845,6 +6920,7 @@
 		480D52E221A1DD44006C7D1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6854,6 +6930,7 @@
 		480D52E321A1DD44006C7D1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6863,6 +6940,7 @@
 		480D52EF21A2F2F1006C7D1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6872,6 +6950,7 @@
 		480D52F021A2F2F1006C7D1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6881,6 +6960,7 @@
 		480D52FB21A322F3006C7D1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6890,6 +6970,7 @@
 		480D52FC21A322F3006C7D1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6899,6 +6980,7 @@
 		480D530721A4131A006C7D1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6908,6 +6990,7 @@
 		480D530821A4131A006C7D1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6917,6 +7000,7 @@
 		48113AF821C638D900A5B8B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6926,6 +7010,7 @@
 		48113AF921C638D900A5B8B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6935,6 +7020,7 @@
 		4811C22621D6883F0010DEA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6944,6 +7030,7 @@
 		4811C22721D6883F0010DEA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6953,6 +7040,7 @@
 		481239C821DCA6F500E7EF38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6962,8 +7050,31 @@
 		481239C921DCA6F500E7EF38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4814D00324031FB800B23875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4814D00424031FB800B23875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -6971,6 +7082,7 @@
 		481610C521E278E600D4C020 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6980,6 +7092,7 @@
 		481610C621E278E600D4C020 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6989,6 +7102,7 @@
 		481610D521E2815D00D4C020 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6998,6 +7112,7 @@
 		481610D621E2815D00D4C020 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7007,6 +7122,7 @@
 		481652A221CCC81800E0FA65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7016,6 +7132,7 @@
 		481652A321CCC81800E0FA65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7025,6 +7142,7 @@
 		481DA4A621CAA8CF00E1D8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7034,6 +7152,7 @@
 		481DA4A721CAA8CF00E1D8E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7043,6 +7162,7 @@
 		48211F5C21A938C8005FECFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7052,6 +7172,7 @@
 		48211F5D21A938C8005FECFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7061,6 +7182,7 @@
 		482227FC21CF78F1007EF95F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7070,6 +7192,7 @@
 		482227FD21CF78F1007EF95F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7079,6 +7202,7 @@
 		4822280821CFD4D4007EF95F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7088,6 +7212,7 @@
 		4822280921CFD4D4007EF95F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7097,6 +7222,7 @@
 		4822281321D21FEF007EF95F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7106,6 +7232,7 @@
 		4822281421D21FEF007EF95F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7115,6 +7242,7 @@
 		4822281F21D279F2007EF95F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7124,6 +7252,7 @@
 		4822282021D279F2007EF95F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7133,6 +7262,7 @@
 		4822282A21D3A98D007EF95F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7142,6 +7272,7 @@
 		4822282B21D3A98D007EF95F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7151,6 +7282,7 @@
 		48223C0721DB4B2800EF7FE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7160,6 +7292,7 @@
 		48223C0821DB4B2800EF7FE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7169,6 +7302,7 @@
 		48223C1321DBCFD300EF7FE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7178,6 +7312,7 @@
 		48223C1421DBCFD300EF7FE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7187,6 +7322,7 @@
 		4823AF7D21B13E9700C0D4D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7196,6 +7332,7 @@
 		4823AF7E21B13E9700C0D4D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7205,6 +7342,7 @@
 		4824AD9F219E98F700104D8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7214,6 +7352,7 @@
 		4824ADA0219E98F700104D8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7223,6 +7362,7 @@
 		4830402A21CCF039009EDD3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7232,6 +7372,7 @@
 		4830402B21CCF039009EDD3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7241,6 +7382,7 @@
 		4830930821B5229C00E93ADC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7250,6 +7392,7 @@
 		4830930921B5229C00E93ADC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7259,6 +7402,7 @@
 		4830931421B538E400E93ADC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7268,6 +7412,7 @@
 		4830931521B538E400E93ADC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7277,6 +7422,7 @@
 		483940FD21B43DFA000B0D57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7286,6 +7432,7 @@
 		483940FE21B43DFA000B0D57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7295,6 +7442,7 @@
 		483F9C7821CA215F00EE8893 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7304,6 +7452,7 @@
 		483F9C7921CA215F00EE8893 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7313,6 +7462,7 @@
 		483F9C8321CA4BB800EE8893 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7322,6 +7472,7 @@
 		483F9C8421CA4BB800EE8893 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7331,6 +7482,7 @@
 		4842A34E21A12CFD000BDC67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7340,6 +7492,7 @@
 		4842A34F21A12CFD000BDC67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7349,6 +7502,7 @@
 		484973D821E3EE51004447B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7358,6 +7512,7 @@
 		484973D921E3EE51004447B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7367,6 +7522,7 @@
 		484B212221E84AD600BDEB98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7376,6 +7532,7 @@
 		484B212321E84AD600BDEB98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7385,6 +7542,7 @@
 		484B212E21E88F4A00BDEB98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7394,6 +7552,7 @@
 		484B212F21E88F4A00BDEB98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7403,6 +7562,7 @@
 		484B213921E8B1A500BDEB98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7412,6 +7572,7 @@
 		484B213A21E8B1A500BDEB98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7421,6 +7582,7 @@
 		484C16B321CEA73700FF4E04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7430,6 +7592,7 @@
 		484C16B421CEA73700FF4E04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7439,6 +7602,7 @@
 		48570DB921E96DD700ACBE1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7448,6 +7612,7 @@
 		48570DBA21E96DD700ACBE1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7457,6 +7622,7 @@
 		48574234219430C2006151BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7466,6 +7632,7 @@
 		48574235219430C2006151BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7475,6 +7642,7 @@
 		48574240219467D8006151BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7484,6 +7652,7 @@
 		48574241219467D8006151BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7493,6 +7662,7 @@
 		485A962B21B6445E000B1147 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7502,6 +7672,7 @@
 		485A962C21B6445E000B1147 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7511,6 +7682,7 @@
 		4867D9A22199ECDE00A4A5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7520,6 +7692,7 @@
 		4867D9A32199ECDE00A4A5FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7529,6 +7702,7 @@
 		4867D9AE219AA25A00A4A5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7538,6 +7712,7 @@
 		4867D9AF219AA25A00A4A5FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7547,6 +7722,7 @@
 		4867D9B9219ABF6B00A4A5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7556,6 +7732,7 @@
 		4867D9BA219ABF6B00A4A5FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7565,6 +7742,7 @@
 		4867D9C4219AC17800A4A5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7574,6 +7752,7 @@
 		4867D9C5219AC17800A4A5FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7583,6 +7762,7 @@
 		4867D9CF219B281100A4A5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7592,6 +7772,7 @@
 		4867D9D0219B281100A4A5FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7601,6 +7782,7 @@
 		4867D9DA219BFE2C00A4A5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7610,6 +7792,7 @@
 		4867D9DB219BFE2C00A4A5FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7619,6 +7802,7 @@
 		4867D9E6219E67EB00A4A5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7628,6 +7812,7 @@
 		4867D9E7219E67EB00A4A5FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7637,6 +7822,7 @@
 		4867D9F3219E890400A4A5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7646,6 +7832,7 @@
 		4867D9F4219E890400A4A5FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7655,6 +7842,7 @@
 		48694B1F219744D400896589 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7664,6 +7852,7 @@
 		48694B20219744D400896589 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7673,6 +7862,7 @@
 		486D124D21E9515900A0A9D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7682,6 +7872,7 @@
 		486D124E21E9515900A0A9D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7802,6 +7993,7 @@
 		486E8940218F187B00C8BC5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7811,6 +8003,7 @@
 		486E8941218F187B00C8BC5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7820,6 +8013,7 @@
 		486E894B218F18B200C8BC5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7829,6 +8023,7 @@
 		486E894C218F18B200C8BC5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7838,6 +8033,7 @@
 		486E8956218F192B00C8BC5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7847,6 +8043,7 @@
 		486E8957218F192B00C8BC5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7856,6 +8053,7 @@
 		486E8961218F19A200C8BC5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7865,6 +8063,7 @@
 		486E8962218F19A200C8BC5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7874,6 +8073,7 @@
 		486E896C218F1AAC00C8BC5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7883,6 +8083,7 @@
 		486E896D218F1AAC00C8BC5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7892,6 +8093,7 @@
 		486E8977218F1B0200C8BC5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7901,6 +8103,7 @@
 		486E8978218F1B0200C8BC5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7910,6 +8113,7 @@
 		486E8982218F1B6A00C8BC5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7919,6 +8123,7 @@
 		486E8983218F1B6A00C8BC5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7928,6 +8133,7 @@
 		486E898D218F1B9600C8BC5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7937,6 +8143,7 @@
 		486E898E218F1B9600C8BC5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7946,6 +8153,7 @@
 		486E8998218F1BD000C8BC5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7955,6 +8163,7 @@
 		486E8999218F1BD000C8BC5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7964,6 +8173,7 @@
 		486E89A3218F1C0700C8BC5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7973,6 +8183,7 @@
 		486E89A4218F1C0700C8BC5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7982,6 +8193,7 @@
 		4876268421EA399700DADDFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7991,6 +8203,7 @@
 		4876268521EA399700DADDFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8000,6 +8213,7 @@
 		4876269121EA8CCC00DADDFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8009,6 +8223,7 @@
 		4876269221EA8CCC00DADDFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8018,6 +8233,7 @@
 		4876269C21EA9D8C00DADDFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8027,6 +8243,7 @@
 		4876269D21EA9D8C00DADDFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8036,6 +8253,7 @@
 		487626A721EACEAF00DADDFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8045,6 +8263,7 @@
 		487626A821EACEAF00DADDFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8054,6 +8273,7 @@
 		487B9BE921B3F0EC0031BC11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8063,6 +8283,7 @@
 		487B9BEA21B3F0EC0031BC11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8072,6 +8293,7 @@
 		4881C9CE21A8381C00A08B73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8081,6 +8303,7 @@
 		4881C9CF21A8381C00A08B73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8090,6 +8313,7 @@
 		4884C7CE219172AB007550D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8099,6 +8323,7 @@
 		4884C7CF219172AB007550D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8108,6 +8333,7 @@
 		4884C7DA21930F1C007550D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8117,6 +8343,7 @@
 		4884C7DB21930F1C007550D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8126,6 +8353,7 @@
 		4893766321D9FE5900DC119D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8135,6 +8363,7 @@
 		4893766421D9FE5900DC119D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8144,6 +8373,7 @@
 		4893766E21DA015D00DC119D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8153,6 +8383,7 @@
 		4893766F21DA015D00DC119D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8162,6 +8393,7 @@
 		4893767921DA0F9000DC119D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8171,6 +8403,7 @@
 		4893767A21DA0F9000DC119D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8180,6 +8413,7 @@
 		489764C821CE008F00382642 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8189,6 +8423,7 @@
 		489764C921CE008F00382642 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8198,6 +8433,7 @@
 		489764D421CE798500382642 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8207,6 +8443,7 @@
 		489764D521CE798500382642 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8216,6 +8453,7 @@
 		489A13C621A6A635002E1152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8225,6 +8463,7 @@
 		489A13C721A6A635002E1152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8234,6 +8473,7 @@
 		48AE839021E291CB0013F835 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8243,6 +8483,7 @@
 		48AE839121E291CB0013F835 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8252,6 +8493,7 @@
 		48BB53E021981683000F5C3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8261,6 +8503,7 @@
 		48BB53E121981683000F5C3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8270,6 +8513,7 @@
 		48BC517121ABA34700B2CAF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8279,6 +8523,7 @@
 		48BC517221ABA34700B2CAF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8288,6 +8533,7 @@
 		48BC517C21AD493600B2CAF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8297,6 +8543,7 @@
 		48BC517D21AD493600B2CAF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8306,6 +8553,7 @@
 		48BC518821AFE4C500B2CAF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8315,6 +8563,7 @@
 		48BC518921AFE4C500B2CAF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8324,6 +8573,7 @@
 		48BE02FB21CACA5A0094F508 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8333,6 +8583,7 @@
 		48BE02FC21CACA5A0094F508 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8342,6 +8593,7 @@
 		48BE030621CB9B9C0094F508 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8351,6 +8603,7 @@
 		48BE030721CB9B9C0094F508 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8360,6 +8613,7 @@
 		48BE031321CBBBE50094F508 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8369,6 +8623,7 @@
 		48BE031421CBBBE50094F508 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8378,6 +8633,7 @@
 		48C0482621BE5F2E00743C29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8387,6 +8643,7 @@
 		48C0482721BE5F2E00743C29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8396,6 +8653,7 @@
 		48C0812321D7C88400F35817 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8405,6 +8663,7 @@
 		48C0812421D7C88400F35817 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8414,6 +8673,7 @@
 		48C0813021D88C7000F35817 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8423,6 +8683,7 @@
 		48C0813121D88C7000F35817 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8432,6 +8693,7 @@
 		48C0813B21D89BE000F35817 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8441,6 +8703,7 @@
 		48C0813C21D89BE000F35817 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8450,6 +8713,7 @@
 		48C0814621D8B1F100F35817 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8459,6 +8723,7 @@
 		48C0814721D8B1F100F35817 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8468,6 +8733,7 @@
 		48C75B0021E4917500AF23D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8477,6 +8743,7 @@
 		48C75B0121E4917500AF23D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8486,6 +8753,7 @@
 		48C75B0D21E497B200AF23D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8495,6 +8763,7 @@
 		48C75B0E21E497B200AF23D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8504,6 +8773,7 @@
 		48C75B1921E5FA6B00AF23D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8513,6 +8783,7 @@
 		48C75B1A21E5FA6B00AF23D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8522,6 +8793,7 @@
 		48D2E53A21C9607B005DF24F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8531,6 +8803,7 @@
 		48D2E53B21C9607B005DF24F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8540,6 +8813,7 @@
 		48DB318921999EA800A38B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8549,6 +8823,7 @@
 		48DB318A21999EA800A38B7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8558,6 +8833,7 @@
 		48DFF7B421D8E6B700CE9D66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8567,6 +8843,7 @@
 		48DFF7B521D8E6B700CE9D66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8576,6 +8853,7 @@
 		48DFF7C021D9EB0700CE9D66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8585,6 +8863,7 @@
 		48DFF7C121D9EB0700CE9D66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8594,6 +8873,7 @@
 		48E1779E21D48B4E005AE256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8603,6 +8883,7 @@
 		48E1779F21D48B4E005AE256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8612,6 +8893,7 @@
 		48E1CA8221B17F520016C22F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8621,6 +8903,7 @@
 		48E1CA8321B17F520016C22F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8630,6 +8913,7 @@
 		48E1CA8F21B304B20016C22F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8639,6 +8923,7 @@
 		48E1CA9021B304B20016C22F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8648,6 +8933,7 @@
 		48E205B021A907E9000927CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8657,6 +8943,7 @@
 		48E205B121A907E9000927CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8666,6 +8953,7 @@
 		48EF244721EE74F4006DF87B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8675,6 +8963,7 @@
 		48EF244821EE74F4006DF87B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8684,6 +8973,7 @@
 		48EF2454220DBCA9006DF87B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8693,6 +8983,7 @@
 		48EF2455220DBCA9006DF87B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8702,6 +8993,7 @@
 		48F1000821DF6A3300029DB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8711,6 +9003,7 @@
 		48F1000921DF6A3300029DB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8720,6 +9013,7 @@
 		48F1001321DF709400029DB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8729,6 +9023,7 @@
 		48F1001421DF709400029DB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8738,6 +9033,7 @@
 		48F1001E21DFB9D800029DB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8747,6 +9043,7 @@
 		48F1001F21DFB9D800029DB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8756,6 +9053,7 @@
 		48F1002921E0A65500029DB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8765,6 +9063,7 @@
 		48F1002A21E0A65500029DB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8774,6 +9073,7 @@
 		48F8642221E0AA51003FFAA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8783,6 +9083,7 @@
 		48F8642321E0AA51003FFAA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8792,6 +9093,7 @@
 		48F9F0A621B6C99500DCB157 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8801,6 +9103,7 @@
 		48F9F0A721B6C99500DCB157 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8810,6 +9113,7 @@
 		48F9F0B221B818DD00DCB157 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8819,6 +9123,7 @@
 		48F9F0B321B818DD00DCB157 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8828,6 +9133,7 @@
 		48F9F0BD21BCFAEA00DCB157 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8837,6 +9143,7 @@
 		48F9F0BE21BCFAEA00DCB157 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8846,6 +9153,7 @@
 		48F9F0C821BD25C400DCB157 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8855,6 +9163,7 @@
 		48F9F0C921BD25C400DCB157 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F89HYZ4J46;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8959,6 +9268,15 @@
 			buildConfigurations = (
 				481239C821DCA6F500E7EF38 /* Debug */,
 				481239C921DCA6F500E7EF38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4814D00224031FB800B23875 /* Build configuration list for PBXNativeTarget "pat_1036" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4814D00324031FB800B23875 /* Debug */,
+				4814D00424031FB800B23875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
