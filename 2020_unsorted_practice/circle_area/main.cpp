@@ -7,46 +7,49 @@
 //
 
 #include <iostream>
+#include <chrono>
 using std::cin;
 using std::cout;
 using std::endl;
 
-/*
+double precision = 0;
+double axis_a = 0;
+double axis_b = 0;
 
-long double find_ellipse_area(double precision, double axis_a, double axis_b){
-    double magnitude = 0.2
-    double epsilon = precision * 10;
-    int array_size = int((axis_a / magnitude + 1) * (axis_b / magnitude + 1));
-    int
-}
-
- */
-
-bool comparator(double x, double y, double axis_a, double axis_b){
+bool comparator(double x, double y){
     return ((x * x)/(axis_a * axis_a) + (y * y)/(axis_b * axis_b)) <= 1;
 }
 
-long double find_ellipse_area(double precision, double axis_a, double axis_b){
-    int count = 0;
-    for(double i = precision / 2; i <= axis_a + precision; i += precision){
-        for(double j = precision / 2; j <= axis_b + precision; j += precision){
-            if(comparator(i, j, axis_a, axis_b)){
-            ++count;
-            }
-        }
+double bi_search_ellipse(double &upper, double &lower, double &x){
+    double mid = (upper + lower) / 2;
+    if(upper - lower < precision){
+        return mid;
     }
-    return 4 * count * precision * precision;
-    
+    if(comparator(x, mid)){ // fall inside the ellipse
+        return bi_search_ellipse(upper, mid, x);
+    }else{
+        return bi_search_ellipse(mid, lower, x); // fall outside the ellipse
+    }
+}
+
+long double find_ellipse_area(double precision, double axis_a, double axis_b){
+    double zero = 0;
+    double accumulator = 0;
+    for(double i = precision / 2; i <= axis_a + precision; i += precision){
+        accumulator += bi_search_ellipse(axis_b, zero, i);
+    }
+    return 4 * accumulator * precision;
 }
 
 int main(){
-    double precision_input = 0;
-    double axis_a_input = 0;
-    double axis_b_input = 0;
-    cout << "Please enter the precision:";
-    cin >> precision_input;
-    cout << "Please enter the 'a' and 'b' of the ellipse:";
-    cin >> axis_a_input >> axis_b_input;
-    cout << find_ellipse_area(precision_input, axis_a_input, axis_b_input) << endl;
+    cout << "Please enter the precision: ";
+    cin >> precision;
+    cout << "Please enter the 'a' and 'b' of the ellipse: ";
+    cin >> axis_a >> axis_b;
+    auto t1 = std::chrono::high_resolution_clock::now();
+    cout << "Area: " << find_ellipse_area(precision, axis_a, axis_b) << endl;
+    auto t2 = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
+    cout << "time use: " << duration / 1000 << " ms" << endl;
     return 0;
 }
