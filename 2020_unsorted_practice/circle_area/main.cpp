@@ -28,8 +28,8 @@ bool comparator(double x, double y, double axis_a, double axis_b){
 
 long double find_ellipse_area(double precision, double axis_a, double axis_b){
     int count = 0;
-    for(double i = precision / 2; i <= axis_b + precision; i += precision){
-        for(double j = precision / 2; j <= axis_a; j += precision){
+    for(double i = precision / 2; i <= axis_a + precision; i += precision){
+        for(double j = precision / 2; j <= axis_b + precision; j += precision){
             if(comparator(i, j, axis_a, axis_b)){
             ++count;
             }
@@ -45,9 +45,8 @@ int main(){
     double axis_b_input = 0;
     cout << "Please enter the precision:";
     cin >> precision_input;
-    cout << endl << "Please enter the 'a' and 'b' of the ellipse:";
+    cout << "Please enter the 'a' and 'b' of the ellipse:";
     cin >> axis_a_input >> axis_b_input;
-    cout << endl;
     cout << find_ellipse_area(precision_input, axis_a_input, axis_b_input) << endl;
     return 0;
 }
