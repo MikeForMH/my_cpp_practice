@@ -11,6 +11,7 @@
 using std::cin;
 using std::cout;
 using std::endl;
+using std::fixed;
 
 double precision = 0;
 double axis_a = 0;
@@ -47,7 +48,8 @@ int main(){
     cout << "Please enter the 'a' and 'b' of the ellipse: ";
     cin >> axis_a >> axis_b;
     auto t1 = std::chrono::high_resolution_clock::now();
-    cout << "Area: " << find_ellipse_area(precision, axis_a, axis_b) << endl;
+    cout.precision(15);
+    cout << "Area: " << fixed << find_ellipse_area(precision, axis_a, axis_b) << endl;
     auto t2 = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
     cout << "time use: " << duration / 1000 << " ms" << endl;

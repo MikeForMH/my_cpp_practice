@@ -394,6 +394,11 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>pat_1037.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>perfect_array_pat_1030.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -663,6 +668,11 @@
 			<true/>
 		</dict>
 		<key>48746E102416F2E9007F2FF2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48746E1B2417CF32007F2FF2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
