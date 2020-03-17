@@ -184,6 +184,11 @@
 			<key>orderHint</key>
 			<integer>68</integer>
 		</dict>
+		<key>comp2011_lab4_simple_2048.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>complete_binary_tree_practice_1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -608,6 +613,11 @@
 			<true/>
 		</dict>
 		<key>4830930E21B538E400E93ADC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>483F53F6241FC4E800A169C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <chrono>
+#include <cmath>
 using std::cin;
 using std::cout;
 using std::endl;
@@ -33,6 +34,34 @@ double bi_search_ellipse(double &upper, double &lower, double &x){
     }
 }
 
+double solve_y(double &x){
+    return axis_b * sqrt(pow(axis_a, 2) - pow(axis_b, 2)) / axis_a;
+}
+
+double f_ellipse(double &x){
+    return (axis_a * sqrt(pow(axis_b, 2) - pow(x, 2)))/axis_b;
+}
+
+double f_prime_ellipse(double &x){
+    return (-1) * axis_a * x / (axis_b * sqrt(pow(axis_b, 2) - pow(x, 2)));
+}
+
+double newton_method_recur(double &precision, double &x){
+    double new_x = x - f_ellipse(x) / f_prime_ellipse(x);
+    if(abs(x - new_x) < precision){
+        return new_x;
+    }
+    return newton_method_recur(precision, new_x);
+}
+
+double ellipse_area_with_newton_method(double &precision){
+    double accumulator = 0;
+    for(double i = precision / 2; i <= axis_a + precision; i += precision){
+        accumulator += solve_y(i);
+    }
+    return 4 * accumulator * precision;
+}
+
 long double find_ellipse_area(double precision, double axis_a, double axis_b){
     double zero = 0;
     double accumulator = 0;
@@ -49,7 +78,7 @@ int main(){
     cin >> axis_a >> axis_b;
     auto t1 = std::chrono::high_resolution_clock::now();
     cout.precision(15);
-    cout << "Area: " << fixed << find_ellipse_area(precision, axis_a, axis_b) << endl;
+    cout << "Area: " << fixed << ellipse_area_with_newton_method(precision) << endl;
     auto t2 = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
     cout << "time use: " << duration / 1000 << " ms" << endl;
