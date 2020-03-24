@@ -12,9 +12,9 @@
 #include <random>
 #include <iomanip>
 #include <algorithm>
-#define X_SIZE 4
-#define Y_SIZE 4
-#define WIN_VALUE 32
+#define X_SIZE 3
+#define Y_SIZE 3
+#define WIN_VALUE 64
 
 using std::cin;
 using std::cout;
