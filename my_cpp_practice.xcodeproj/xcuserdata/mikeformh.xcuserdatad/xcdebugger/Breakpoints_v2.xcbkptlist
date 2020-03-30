@@ -789,7 +789,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
             endingLineNumber = "70"
-            landmarkName = "insert(Node &lt;Type&gt; *node, int index)"
+            landmarkName = "insert(node, index)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -806,7 +806,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "77"
             endingLineNumber = "77"
-            landmarkName = "insert(Node &lt;Type&gt; *node, int index)"
+            landmarkName = "insert(node, index)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -857,7 +857,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "106"
             endingLineNumber = "106"
-            landmarkName = "remove_node(int index)"
+            landmarkName = "remove_node(index)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -874,7 +874,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "107"
             endingLineNumber = "107"
-            landmarkName = "remove_node(int index)"
+            landmarkName = "remove_node(index)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
