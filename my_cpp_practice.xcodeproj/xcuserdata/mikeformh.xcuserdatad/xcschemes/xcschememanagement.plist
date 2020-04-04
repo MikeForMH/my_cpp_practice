@@ -194,6 +194,11 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>comp2011_lab7_lights_out_my_implementation.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 		<key>comp_2011_lab5_shuttle_puzzle.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -622,6 +627,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>4827ABCF2434735C006D69A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4830930E21B538E400E93ADC</key>
 		<dict>
 			<key>primary</key>
@@ -658,6 +668,11 @@
 			<true/>
 		</dict>
 		<key>4857BA4F2429A7F4006B68E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4866C3942434821000795994</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -722,6 +737,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>4897AEA624346CBF006EB001</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>48AE838A21E291CB0013F835</key>
 		<dict>
 			<key>primary</key>
@@ -738,6 +758,11 @@
 			<true/>
 		</dict>
 		<key>48E1779921D48B4E005AE256</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48EA8DBC24377C2700F11FD5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
