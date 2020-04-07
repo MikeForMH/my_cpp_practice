@@ -1,21 +1,21 @@
-# include <iostream>
-# include <iomanip>
-# include <vector>
-# include <queue>
-# include <iterator>
-# include <string>
-# include <algorithm>
+#include <iostream>
+#include <iomanip>
+#include <vector>
+#include <queue>
+#include <iterator>
+#include <string>
+#include <algorithm>
+#include <cctype>
+#include <sstream>
 using namespace std;
 
 int main(){
-    vector <int> list;
-    int temp;
-    while(cin >> temp){
-        list.push_back(temp);
-    }
-    sort(list.begin(), list.end()); 
-    for(int var: list){
-        cout << " " << var;
+    int input_1;
+    string str_input;
+    getline(cin, str_input);
+    istringstream iss(str_input);
+    while(iss >> input_1){
+        cout << input_1 << ' ';
     }
     cout << endl;
     return 0;
