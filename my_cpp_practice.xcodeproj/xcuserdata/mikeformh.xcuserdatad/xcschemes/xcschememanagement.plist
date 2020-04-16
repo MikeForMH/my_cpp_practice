@@ -199,6 +199,11 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>comp2011_pa2_recursion.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
 		<key>comp_2011_lab5_shuttle_puzzle.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -463,6 +468,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>28</integer>
+		</dict>
+		<key>pat_1049.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
+		<key>pat_1051.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
 		</dict>
 		<key>perfect_array_pat_1030.xcscheme_^#shared#^_</key>
 		<dict>
@@ -817,6 +832,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>48B5D06B2448639F00F342C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>48B87A3C2429F2E3004B182F</key>
 		<dict>
 			<key>primary</key>
@@ -868,6 +888,16 @@
 			<true/>
 		</dict>
 		<key>48F294AA2440877E0074229D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48F294B72440E4EA0074229D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48F294C3244314B20074229D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
